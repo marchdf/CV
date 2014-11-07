@@ -1,0 +1,94 @@
+%\documentclass[11pt,a4paper]{mycv}
+\documentclass[11pt,letterpaper]{mycv}
+
+\mycvtheme[blue,roman]{mine}
+\usepackage{amsmath}
+
+% adjust the page margins
+\usepackage[scale=0.8]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}		% if you want to change the width of the column with the dates
+\AtBeginDocument{\setlength{\maketitlenamewidth}{8cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
+\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
+
+% personal data
+\firstname{Marc T.}
+\familyname{\mbox{Henry de Frahan}}
+%\title{Applied Mathematics engineer}              
+%\address{Rue E. Semal 4}{1310 La Hulpe, Belgium}
+\address{409 E. Kingsley St Apt 2.}{Ann Arbor, MI, 48104}
+\mobile{(734)747-0156}                   
+\email{marchdf@umich.edu}                  
+%\phone{phone (optional)}                  
+%\fax{fax (optional)}                      
+%\extrainfo{additional information (optional)}
+%\quote{Some quote (optional)}                
+
+\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
+
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+\maketitle%\ignorespaces
+\vspace*{-0.5cm}%
+
+\section{Education}%
+\cventry{2011-present}{Ph.D. in Mechanical Engineering}{University of Michigan}{Ann Arbor, MI}{}{\textit{Research focus:} Simulations of hydrodynamic instabilities and multifluid turbulence\newline\textit{Advisor:} Prof. E. Johnsen}%
+\cventry{2009-2011}{M.S. in Applied Mathematics Engineering}{Université Catholique de Louvain}{Belgium}{completed with \textit{High Distinction}}{\textit{Specialization:} Numerical simulation and modeling \\\textit{Thesis:} Implementation of a Discontinuous Galerkin Method for hyperbolic PDEs on GPUs\newline \textit{ Thesis supervisors:} Dr. J-F Remacle, Dr. P. Chatelain, Dr. V. Legat.}%
+\cventry{2007-2009}{B.S. in Applied Mathematics Engineering}{Université Catholique de Louvain}{Belgium}{graduated with \textit{Distinction}. \textit{Minor:} Physics}{}%
+
+\section{Research Interests}%
+\cventry{}{Fluid mechanics - shocks, hydrodynamic instabilities, turbulence}{}{}{}{}%
+\cventry{}{Plasma physics - solar wind turbulence, supernovae explosions}{}{}{}{}%
+\cventry{}{High order numerical methods for computational fluid dynamics}{}{}{}{}%
+\cventry{}{High performance computing with graphics processing units}{}{}{}{}{}%
+
+\section{Relevant Experience}%
+\cventry{2013-present}{Graduate Seminar Chair and Executive Member}{Mechanical Engineering Graduate Council}{University of Michigan}{}{Coordinate networking events for engineering students}%
+\cventry{Fall 2013}{Graduate Student Instructor}{ME/AERO 523: Computational Fluid Dynamics}{Prof. E. Johnsen}{}{}%
+\cventry{Summer 2012}{Student Intern}{Lawrence Livermore National Lab.}{Livermore}{CA}{Comparing Beryllium strength models with experimental data\newline\textit{Supervisors}: Dr. B. Remington and Dr. R. Cavallo}%
+\cventry{Spring 2012}{Long-term Participant}{Computational Methods in High Energy Density Plasmas}{}{}{Workshop hosted by the Institute for Pure and Applied Mathematics at UCLA}%
+\cventry{Summer 2010}{Student Intern}{Lawrence Livermore National Lab.}{Livermore}{CA}{Studied hydrodynamic instabilities in inertial confinement fusion targets\newline Characterized growth factors during capsule compression\newline \textit{Supervisors}: Dr. L. J. Suter and Dr. D. S. Clark}%
+\cventry{Summer 2009}{Student Intern}{Lawrence Livermore National Lab.}{Livermore}{CA}{Studied hot electron signatures and capsule preheat in the context of inertial confinement fusion as developed at the National Ignition Facility\newline \textit{Supervisors}: Dr. L. J. Suter and Dr. C. A. Thomas}% 
+\cventry{Summer 2008}{Student Intern}{Lawrence Livermore National Lab.}{Livermore}{CA}{Studied and optimized National Ignition Facility inertial confinement fusion target geometries using view factor calculations\newline \textit{Supervisors}: Dr. L. J. Suter and Dr. C. A. Thomas}%
+%\cventry{Summer 2007}{Intern}{Meridian Construction Inc.}{Spokane WA}{USA}{Worked on a construction site and maintained office databases.}
+%\cventry{2006-2007}{Front Desk Assistant}{Georgetown University Library}{Washington D.C}{USA}{}%{Responsible for media check-out and supervision of the computer laboratory.}
+%\cventry{2007-present}{Tutor \textnormal{in high-school and college Mathematics, Science, Latin and Ancient Greek}}{}{}{}{}
+
+\section{Fellowships and Awards}%
+\cvaward{Rackham Centennial Fellowship}{2013}{University of Michigan}{}%
+\cvaward{Poster Winner}{\,LLNL 2012 Summer Poster Session}{Livermore, CA}{}%
+
+\nocite{*}%
+\bibliographystyle{plain}%
+\bibliography{pub}%
+
+\section{Presentations}%
+\cvpres{Marc T. Henry de Frahan, E. Johnsen}{Blast-driven hydrodynamic instability}{APS $66^{\text{th}}$ Meeting of the Division of Fluid Dynamics}{Nov. 2013}{Pittsburgh, PA}{}%
+\cvpres{Marc T. Henry de Frahan, J. L. Belof, R. M. Cavallo, O. Ignatova, E. Johnsen, B. A. Remington, V. Raevsky}{Analysis of recent Beryllium Rayleigh-Taylor experiments}{Fundamentals of Pu Workshop XIII}{Sep. 2013}{Sarov, Russia}{}%
+\cvpres{Marc T. Henry de Frahan, P. Movahed, E. Johnsen}{Investigating the multi-layered Richtmyer-Meshkov instability with high-order accurate numerical methods}{$29^{\text{th}}$ International Symposium on Shock Waves}{Jul. 2013}{Madison, WI}{}%
+\cvpres{Marc T. Henry de Frahan, E. Johnsen}{Discontinuous Galerkin method for multifluid Euler equations}{$21^{\text{st}}$ AIAA Computational Fluid Dynamics Conference}{Jun. 2013}{San Diego, CA}{}%
+\cvpres{Marc T. Henry de Frahan, J. L. Belof, R. M. Cavallo, O. Ignatova, E. Johnsen, B. A. Remington, V. Raevsky}{\link[\textbf{Beryllium strength under extreme dynamic loading conditions}]{http://meeting.aps.org/Meeting/DPP12/Event/176052}}{APS $54^{\text{th}}$ Meeting of the Division of Plasma Physics}{Oct. 2012}{Providence, RI}{}%
+%\cvpres{Marc T. Henry de Frahan, J. L. Belof, R. M. Cavallo, O. Ignatova, E. Johnsen, B. A. Remington, V. Raevsky}{Beryllium strength under extreme dynamic loading conditions}{Annual MIPSE Poster Symposium}{October 2012}{Michigan State University, MI}{}
+\cvpres{Marc T. Henry de Frahan, D. S. Clark, L. J. Suter}{Hydrodynamic instabilities in inertial confinement fusion targets}{WCI Summer Presentation}{Sept. 2010}{Livermore, CA}{}%
+\cvpres{Marc T. Henry de Frahan, C. A. Thomas, L. J. Suter}{Hot electron signatures and preheat}{WCI Summer Presentation}{Sept. 2009}{Livermore, CA}{}%
+\cvpres{Marc T. Henry de Frahan, C. A. Thomas, L. J. Suter}{Achieving symmetry without the inner cone}{WCI Summer Presentation}{Sept. 2008}{Livermore, CA}{}%
+%\cvpres{Marc T. Henry de Frahan, C. A. Thomas, L. J. Suter}{Achieving symmetry without the inner cone}{ LLNL Summer Poster Session}{August 2008}{Livermore, CA}{}
+
+\section{Memberships}%
+\cventry{2012-present}{American Physical Society}{}{student member}{}{}%
+\cventry{2012-present}{American Institute of Aeronautics and Astronautics}{}{student member}{}{}%
+\cventry{2011-2013}{\link[Center for Radiative Shock Hydrodynamics]{http://aoss-research.engin.umich.edu/crash/}}{U. of Michigan}{student member}{}{}%
+
+\section{Computer Skills}%
+\cvcomputer{Scientific programing}{C/C++, \textsc{C} for \textsc{CUDA}, \textsc{MPI}, OpenMP, Matlab, Python, Bash, Hydra, Ares, Yorick, \textsc{ITS} Monte-Carlo Codes}%
+\cvcomputer{Operating systems}{GNU/Linux, Windows}%
+%\cvcomputer{OS}{Linux/Unix, Windows}{Programing}{C/C++, OpenMP, MPI, Python, Yorick}
+%\cvcomputer{Scientific}{Matlab, Fluent, NASTRAN, ITS Monte-Carlo Codes, Hydra}{Typography}{\LaTeX, Microsoft Office}
+
+\section{Languages}%
+\cvlanguage{English}{fluent}{First mother tongue}%
+\cvlanguage{French}{fluent}{Second mother tongue}%
+\cvlanguage{Dutch}{proficient}{6 years in secondary school}%
+\end{document}
