@@ -338,6 +338,18 @@
     \ifx#6\else{\newline{}\begin{minipage}[t]{\linewidth}\small#6\end{minipage}}\fi
     }}%
 
+% usage: \cvarticle{authors}{title}{journal}{reference}{year}
+\newcommand*{\cvarticle}[6]{%
+  \cvline{}{%
+    \small%
+    {#1}%
+    \ifx#2\else{. \textbf{#2}}\fi%
+    \ifx#3\else{. \textit{#3}}\fi%\    
+    \ifx#4\else{, #4}\fi%
+    \ifx#5\else{, #5}\fi%
+    \ifx#6\else{. {\slshape#6}}\fi%
+}}%
+
 % usage: \cvpres{authors}{title}{conference}{date}{location}
 \newcommand*{\cvpres}[6]{%
   \cvline{}{%
@@ -348,7 +360,7 @@
     \ifx#4\else{, #4}\fi%
     \ifx#5\else{, #5}\fi%
     \ifx#6\else{, {\slshape#6}}\fi%
-    }}%
+}}%
 
 % usage: \cvaward{award}{event/date}{where}{misc}
 \newcommand*{\cvaward}[4]{
