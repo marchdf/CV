@@ -6,3 +6,4 @@ pdflatex report;
 pdflatex report;
 rm -f *.aux  *.bbl  *.blg  *.dvi  *.log  *.out  *.ps
 #evince report.pdf;
+cp report.pdf ~/Dropbox
