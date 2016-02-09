@@ -1,42 +1,65 @@
-%\documentclass[11pt,a4paper]{mycv}
-\documentclass[11pt,letterpaper]{mycv}
+\documentclass[11pt,letterpaper]{article}
+%% %\documentclass[11pt,a4paper]{mycv}
 
-\mycvtheme[blue,roman]{mine}
-\usepackage{amsmath}
-
+%=================================================================================
 % adjust the page margins
 \usepackage[scale=0.8]{geometry}
-%\setlength{\hintscolumnwidth}{3cm}		% if you want to change the width of the column with the dates
-\AtBeginDocument{\setlength{\maketitlenamewidth}{8cm}}  % only for the classic theme, if you want to change the width of your name placeholder (to leave more space for your address details
-\AtBeginDocument{\recomputelengths}                     % required when changes are made to page layout lengths
 
-% my commands
+%=================================================================================
+% Document information
+\def\firstname{Marc T.}
+\def\familyname{Henry de Frahan}
+\def\FileAuthor{\firstname~\familyname}
+\def\FileTitle{\firstname~\familyname~CV}
+\def\FileSubject{\firstname~\familyname~CV}
+\def\FileKeyWords{\firstname~\familyname, \FileSubject, \FileTitle}
+
+%=================================================================================
+% Packages
+\usepackage{amsmath}
+\usepackage[usenames,dvipsnames]{xcolor}
+\usepackage{hyperref}
+\hypersetup{
+  colorlinks=true,       % false: boxed links; true: colored links
+  breaklinks=true,       % permet le retour à la ligne dans les liens trop longs
+  linkcolor=black,       % color of internal links (red)
+  citecolor=black,       % color of links to bibliography (green)
+  filecolor=black,       % color of file links (magenta)
+  urlcolor=black,        % color of external links (cyan)
+  pdftitle={\FileTitle},
+  pdfauthor={\FileAuthor},
+  pdfsubject={\FileSubject},
+  pdfkeywords={\FileKeyWords}}
+
+%=================================================================================
+% Usefull commands
 \newcommand{\raisedrule}[2][0em]{\leaders\hbox{\rule[#1]{1pt}{#2}}\hfill}
+\newcommand*{\firstnamefont}{\fontsize{24}{36}\sffamily\mdseries\upshape}
+\newcommand*{\familynamefont}{\firstnamefont}
+\newcommand*{\sectionfont}{\Large\sffamily\mdseries\upshape}
+\newcommand*{\titlefont}{\small\sffamily\mdseries\slshape}
+\newcommand*{\addressfont}{\normalsize\rmfamily\mdseries\slshape}
 
-% personal data
-\firstname{Marc T.}
-\familyname{\mbox{Henry de Frahan}}
-\title{\small US citizen, Applied Mathematics/Mechanical engineer}              
-%\address{Rue E. Semal 4}{1310 La Hulpe, Belgium}
-\address{409 E. Kingsley St Apt 2.}{Ann Arbor, MI, 48104}
-\extrainfo{(734)747-0156}
-\email{marchdf@umich.edu}
-%\phone{phone (optional)}                  
-%\fax{fax (optional)}                      
-%\extrainfo{additional information (optional)}
-%\quote{Some quote (optional)}                
+%=================================================================================
+% Define some colors and color shortcuts
+\definecolor{firstnamecolor}{rgb}{0.55,0.55,0.55}
+\definecolor{familynamecolor}{rgb}{0.35,0.35,0.35}
+\definecolor{sectiontitlecolor}{rgb}{0.2,0.4,0.65}
+\definecolor{titlecolor}{rgb}{0.35,0.35,0.35}
+\definecolor{addresscolor}{rgb}{0.25,0.25,0.25}
 
-\nopagenumbers{}                             % uncomment to suppress automatic page numbering for CVs longer than one page
-
-%----------------------------------------------------------------------------------
-%            content
-%----------------------------------------------------------------------------------
-
-
-
-\begin{document}
-\maketitle%\ignorespaces%
-\vspace*{-0.5 cm}\\%
+%=================================================================================
+% Start the document
+\begin{document}%
+\noindent%
+\begin{minipage}[t]{0.5\textwidth}%
+  {\firstnamefont\color{firstnamecolor}\firstname}~{\familynamefont\color{familynamecolor}\familyname}\\[.25em]%
+  {\titlefont\color{titlecolor}US citizen, Applied Mathematics/Mechanical engineer}%
+\end{minipage}\hfill%
+\begin{minipage}[t]{0.3\textwidth}\flushright%
+  \vspace*{1ex}%
+  {\addressfont\color{addresscolor}409 E. Kingsley St Apt 2.\\Ann Arbor, MI, 48104\\marchdf@umich.edu\\(734)747-0156}%
+\end{minipage}\\[2em]%
 %
 %
 %
@@ -298,7 +321,7 @@ M. T. Henry de Frahan, E. Johnsen, \textbf{Blast-driven hydrodynamic instability
 M. T. Henry de Frahan, J. L. Belof, R. M. Cavallo, O. Ignatova, E. Johnsen, B. A. Remington, V. Raevsky, \textbf{Analysis of recent Beryllium Rayleigh-Taylor experiments}, \textit{Fundamentals of Pu Workshop XIII}, Sep. 2013, Sarov, Russia\\[2ex]%
 M. T. Henry de Frahan, P. Movahed, E. Johnsen, \textbf{Investigating the multi-layered Richtmyer-Meshkov instability with high-order accurate numerical methods}, \textit{$29^{\text{th}}$ International Symposium on Shock Waves}, Jul. 2013, Madison, WI\\[2ex]%
 M. T. Henry de Frahan, E. Johnsen, \textbf{Discontinuous Galerkin method for multifluid Euler equations}, \textit{$21^{\text{st}}$ AIAA Computational Fluid Dynamics Conference}, Jun. 2013, San Diego, CA\\[2ex]%
-M. T. Henry de Frahan, J. L. Belof, R. M. Cavallo, O. Ignatova, E. Johnsen, B. A. Remington, V. Raevsky, {\link[\textbf{Beryllium strength under extreme dynamic loading conditions}]{http://meeting.aps.org/Meeting/DPP12/Event/176052}}, \textit{APS $54^{\text{th}}$ Meeting of the Division of Plasma Physics}, Oct. 2012, Providence, RI\\[3ex]%
+M. T. Henry de Frahan, J. L. Belof, R. M. Cavallo, O. Ignatova, E. Johnsen, B. A. Remington, V. Raevsky, \href{http://meeting.aps.org/Meeting/DPP12/Event/176052}{\textbf{Beryllium strength under extreme dynamic loading conditions}}, \textit{APS $54^{\text{th}}$ Meeting of the Division of Plasma Physics}, Oct. 2012, Providence, RI\\[3ex]%
 %\cvpres{M. T. Henry de Frahan, J. L. Belof, R. M. Cavallo, O. Ignatova, E. Johnsen, B. A. Remington, V. Raevsky}{Beryllium strength under extreme dynamic loading conditions}{Annual MIPSE Poster Symposium}{October 2012}{Michigan State University, MI}{}%
 %\cvpres{M. T. Henry de Frahan, D. S. Clark, L. J. Suter}{Hydrodynamic instabilities in inertial confinement fusion targets}{WCI Summer Presentation}{Sept. 2010}{Livermore, CA}{}%
 %\cvpres{M. T. Henry de Frahan, C. A. Thomas, L. J. Suter}{Hot electron signatures and preheat}{WCI Summer Presentation}{Sept. 2009}{Livermore, CA}{}%
