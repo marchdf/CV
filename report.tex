@@ -19,9 +19,10 @@
 \usepackage{amsmath}
 \usepackage[usenames,dvipsnames]{xcolor}
 \usepackage{hyperref}
+\usepackage{enumitem}
 \hypersetup{
   colorlinks=true,       % false: boxed links; true: colored links
-  breaklinks=true,       % permet le retour � la ligne dans les liens trop longs
+  breaklinks=true,       % permet le retour à la ligne dans les liens trop longs
   linkcolor=black,       % color of internal links (red)
   citecolor=black,       % color of links to bibliography (green)
   filecolor=black,       % color of file links (magenta)
@@ -54,7 +55,7 @@
 \noindent%
 \begin{minipage}[t]{0.5\textwidth}%
   {\firstnamefont\color{firstnamecolor}\firstname}~{\familynamefont\color{familynamecolor}\familyname}\\[.25em]%
-  {\titlefont\color{titlecolor}US citizen, Applied Mathematics/Mechanical engineer}%
+  {\titlefont\color{titlecolor}US citizen, Science communicator, Mechanical engineer}%
 \end{minipage}\hfill%
 \begin{minipage}[t]{0.3\textwidth}\flushright%
   \vspace*{1ex}%
@@ -67,9 +68,13 @@
 {\sectionfont\color{sectiontitlecolor}{Education}\hspace*{0.5cm}\raisedrule[0.5ex]{1pt}}\\[0.5ex]%
 \begin{minipage}[t]{0.82\textwidth}%
   \textbf{Ph.D. in Mechanical Engineering}\\%
-  University of Michigan, Ann Arbor, MI\\%
-  Thesis: \textit{Numerical Simulations of waves, shocks and blasts interacting with interfaces in highly compressible multiphase flows}\\%
-  Advisor: E. Johnsen, Assistant Professor of Mechanical Engineering%
+  University of Michigan, Ann Arbor, MI%
+  \begin{description}[nosep]
+  \item[\normalfont Thesis:]\textit{Numerical Simulations of waves, shocks and blasts interacting with interfaces in highly compressible multiphase flows}%
+  \item[\normalfont Advisor:]E. Johnsen, Assistant Professor of Mechanical Engineering%
+  %% \item[\normalfont Selected coursework:] Compressible Flow, Advanced Fluid Mechanics, Turbulent Flow, Advanced Heat Transfer, Space Physics, High Energy Density Physics, Data Science Specialization (John Hopkins University through Coursera)%
+  %% \item[\normalfont GPA:]4.00%
+  \end{description}%
 \end{minipage}\hfill%
 \begin{minipage}[t]{0.15\textwidth}\flushright%
   2011-2016%
@@ -93,12 +98,178 @@
 %
 %
 %
+%% %
+%% {\sectionfont\color{sectiontitlecolor}{Research Interests}\hspace*{0.5cm}\raisedrule[0.5ex]{1pt}}\\[0.5ex]%
+%% Fluid mechanics - multiphase flows, hydrodynamic instabilities, turbulence\\%
+%% %Plasma physics - solar wind turbulence, supernovae explosions, fusion energy\\%
+%% Code development - CUDA, visualization, parallel I/O, Git\\
+%% High order numerical methods for computational fluid dynamics\\%
+%% High performance computing with graphics processing units\\[3ex]%
 %
-{\sectionfont\color{sectiontitlecolor}{Research Interests}\hspace*{0.5cm}\raisedrule[0.5ex]{1pt}}\\[0.5ex]%
-Fluid mechanics - multiphase flows, hydrodynamic instabilities, turbulence\\%
-Plasma physics - solar wind turbulence, supernovae explosions, fusion energy\\%
-High order numerical methods for computational fluid dynamics\\%
-High performance computing with graphics processing units\\[3ex]%
+%
+%
+%
+%% {\sectionfont\color{sectiontitlecolor}{References}\hspace*{0.5cm}\raisedrule[0.5ex]{1pt}}\\[0.5ex]%
+%% Eric Johnsen, Assistant Professor of Mechanical Engineering, University of Michigan\\%
+%% 734-647-1450, ejohnsen@umich.edu\\[2ex]%
+%% Paul Drake, Henry S. Carhart Collegiate Professor of Space Sciences, University of Michigan\\%
+%% 734-763-4072, rpdrake@umich.edu\\[2ex]%
+%% Rob Cavallo, Scientist, Lawrence Livermore National Laboratory\\%
+%% 925-422-3277, rcavallo@llnl.gov\\[3ex]%
+%
+%
+%
+%
+{\sectionfont\color{sectiontitlecolor}{Science Communication Experience}\hspace*{0.5cm}\raisedrule[0.5ex]{1pt}}\\[0.5ex]%
+\begin{minipage}[t]{0.82\textwidth}%
+  \textbf{ArtsEngine Microgrant, University of Michigan}\\%
+  Children's book author, collaborators: Brandon Patterson, Erika Lazar\\%
+  Awarded grant to write a children's book about my research on bubbles%
+\end{minipage}\hfill%
+\begin{minipage}[t]{0.15\textwidth}\flushright%
+  Spring 2016%
+\end{minipage}\\[2ex]%
+\begin{minipage}[t]{0.82\textwidth}%
+  \textbf{Sweetland Center for Writing, University of Michigan}\\%
+  Dissertation Writing Group Leader\\%
+  Lead a group of PhD students in weekly dissertation writing and feedback sessions%
+\end{minipage}\hfill%
+\begin{minipage}[t]{0.15\textwidth}\flushright%
+  Spring 2016%
+\end{minipage}\\[2ex]%
+\begin{minipage}[t]{0.82\textwidth}%
+  \textbf{Mechanical Engineering Graduate Council, University of Michigan}\\%
+  - STEM Communication Chair\\%
+  \hphantom{-} Communicate graduate student research to lay audiences through web articles\\[1ex]%
+  - Graduate Seminar Chair\\%
+  \hphantom{-} Organize monthly seminars to coach graduate student presentation skills%
+\end{minipage}\hfill%
+\begin{minipage}[t]{0.15\textwidth}\flushright%
+  2013-2016%
+\end{minipage}\\[3ex]%
+%
+%
+%
+%
+{\sectionfont\color{sectiontitlecolor}{Leadership Experience}\hspace*{0.5cm}\raisedrule[0.5ex]{1pt}}\\[0.5ex]%
+\begin{minipage}[t]{0.82\textwidth}%
+  \textbf{Mechanical Engineering Graduate Council, University of Michigan}\\%
+  President\\%
+  Promote social, academic and professional development for ME graduate students%
+\end{minipage}\hfill%
+\begin{minipage}[t]{0.15\textwidth}\flushright%
+  2014-2015%
+\end{minipage}\\[2ex]%
+\begin{minipage}[t]{0.82\textwidth}%
+  \textbf{Graduate Student Advisory Committee, University of Michigan}\\%
+  Representative for Department of Mechanical Engineering\\%
+  Identify and plan activities to promote community among engineering students%
+\end{minipage}\hfill%
+\begin{minipage}[t]{0.15\textwidth}\flushright%
+  2014-2015%
+\end{minipage}\\[3ex]%
+\newpage\noindent% ARTICIFIAL
+%
+%
+%
+%
+{\sectionfont\color{sectiontitlecolor}{Mentorship and Teaching Experience}\hspace*{0.5cm}\raisedrule[0.5ex]{1pt}}\\[0.5ex]%
+\begin{minipage}[t]{0.82\textwidth}%
+  \textbf{Jalil Alidoost, University of Michigan}\\%
+  Mentored senior undergraduate for a project on diffusive and kinetic properties of chair motion in the Shapiro Library%
+\end{minipage}\hfill%
+\begin{minipage}[t]{0.15\textwidth}\flushright%
+  2015-2016%
+\end{minipage}\\[2ex]%
+\begin{minipage}[t]{0.82\textwidth}%
+  \textbf{Colby Hanley, University of Michigan}\\%
+  Mentored freshman undergraduate for a project on multi-GPU profiling for high-performance computing%
+\end{minipage}\hfill%
+\begin{minipage}[t]{0.15\textwidth}\flushright%
+  2015-2016%
+\end{minipage}\\[2ex]%
+\begin{minipage}[t]{0.82\textwidth}%
+  \textbf{Graduate Student Instructor for ME 523: Computational Fluid Dynamics}\\%
+  University of Michigan, Ann Arbor, MI%
+\end{minipage}\hfill%
+\begin{minipage}[t]{0.15\textwidth}\flushright%
+  Fall 2013%
+\end{minipage}\\[3ex]%
+%
+%
+%
+%
+{\sectionfont\color{sectiontitlecolor}{Volunteer Service and Outreach}\hspace*{0.5cm}\raisedrule[0.5ex]{1pt}}\\[0.5ex]%
+\begin{minipage}[t]{0.82\textwidth}%
+  \textbf{DAPCEP Instructor}\\%
+  Organized and taught a 6-week long engineering discovery course for Detroit-area middle school students%
+\end{minipage}\hfill%
+\begin{minipage}[t]{0.15\textwidth}\flushright%
+  Spring 2015 and 2016%
+\end{minipage}\\[2ex]%
+\begin{minipage}[t]{0.82\textwidth}%
+  \textbf{Volunteer Instructor, Adams Academy Engineering Club}\\%
+  Instructed fun basic science and engineering projects at a local primary school%
+\end{minipage}\hfill%
+\begin{minipage}[t]{0.15\textwidth}\flushright%
+  2014-2016%
+\end{minipage}\\[2ex]%
+\begin{minipage}[t]{0.82\textwidth}%
+  \textbf{Graduate Student Recruiter, University of Michigan}\\%
+  Organized and participated in recruitment events graduate students visiting the Mechanical Engineering department%
+\end{minipage}\hfill%
+\begin{minipage}[t]{0.15\textwidth}\flushright%
+  2012-2016%
+\end{minipage}\\[3ex]%
+%
+%
+%
+%
+{\sectionfont\color{sectiontitlecolor}{Fellowships and Awards}\hspace*{0.5cm}\raisedrule[0.5ex]{1pt}}\\[0.5ex]%
+\begin{minipage}[t]{0.82\textwidth}%
+  \textbf{Towner Prize for Distinguished Academic Achievement}\\%
+  University of Michigan\\%
+  Presented to the outstanding graduate student, considering student’s active participation in research, leadership and academic performance (\$1,000)%
+\end{minipage}\hfill%
+\begin{minipage}[t]{0.15\textwidth}\flushright%
+  2016%
+\end{minipage}\\[2ex]%
+\begin{minipage}[t]{0.82\textwidth}%
+  \textbf{AIAA CFD Best Student Paper Award ($3^{\text{d}}$ place)}\\%
+  American Institute of Aeronautics and Astronautics%
+\end{minipage}\hfill%
+\begin{minipage}[t]{0.15\textwidth}\flushright%
+  2015%
+\end{minipage}\\[2ex]%
+\begin{minipage}[t]{0.82\textwidth}%
+  \textbf{Rackham Predoctoral Fellowship}\\%
+  University of Michigan\\%
+  Supports outstanding doctoral students for a year%
+\end{minipage}\hfill%
+\begin{minipage}[t]{0.15\textwidth}\flushright%
+  2015%
+\end{minipage}\\[2ex]%
+\begin{minipage}[t]{0.82\textwidth}%
+  \textbf{Rackham Centennial Fellowship}\\%
+  University of Michigan%
+\end{minipage}\hfill%
+\begin{minipage}[t]{0.15\textwidth}\flushright%
+  2013%
+\end{minipage}\\[2ex]%
+\begin{minipage}[t]{0.82\textwidth}%
+  \textbf{NIF Poster Winner}\\%
+  Lawrence Livermore National Laboratory 2012 Summer Poster Session%
+\end{minipage}\hfill%
+\begin{minipage}[t]{0.15\textwidth}\flushright%
+  2012%
+\end{minipage}\\[2ex]%
+\begin{minipage}[t]{0.82\textwidth}%
+  \textbf{High Distinction}\\%
+  M.S. in Applied Mathematics Engineering at the Universit\'{e} Catholique de Louvain%
+\end{minipage}\hfill%
+\begin{minipage}[t]{0.15\textwidth}\flushright%
+  2011%
+\end{minipage}\\[3ex]%
 %
 %
 %
@@ -161,131 +332,6 @@ High performance computing with graphics processing units\\[3ex]%
 \end{minipage}\hfill%
 \begin{minipage}[t]{0.15\textwidth}\flushright%
   Summer 2008%
-\end{minipage}\\[3ex]%
-%
-%
-%
-%
-{\sectionfont\color{sectiontitlecolor}{Leadership Experience}\hspace*{0.5cm}\raisedrule[0.5ex]{1pt}}\\[0.5ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Sweetland Center for Writing, University of Michigan}\\%
-  Dissertation Writing Group Leader\\%
-  Lead a group of PhD students in weekly dissertation writing and feedback sessions%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  Spring 2016%
-\end{minipage}\\[2ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Mechanical Engineering Graduate Council, University of Michigan}\\%
-  - STEM Communication Chair\\%
-  \hphantom{-} Communicate graduate student research to lay audiences\\[1ex]%
-  - President\\%
-  \hphantom{-} Promote social, academic and professional development for ME graduate students\\[1ex]%
-  - Graduate Seminar Chair\\%
-  \hphantom{-} Organize monthly seminars to showcase graduate student research%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  2013-2016%
-\end{minipage}\\[2ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Graduate Student Advisory Committee, University of Michigan}\\%
-  Representative for Department of Mechanical Engineering\\%
-  Identify and plan activities to promote community among engineering graduate students%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  2014-2015%
-\end{minipage}\\[3ex]%
-%
-%
-%
-%
-{\sectionfont\color{sectiontitlecolor}{Mentorship and Teaching Experience}\hspace*{0.5cm}\raisedrule[0.5ex]{1pt}}\\[0.5ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Jalil Alidoost, University of Michigan}\\%
-  Mentored senior undergraduate for a project on diffusive and kinetic properties of chair motion in the Shapiro Library%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  2015-2016%
-\end{minipage}\\[2ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Colby Hanley, University of Michigan}\\%
-  Mentored freshman undergraduate for a project on multi-GPU profiling for high-performance computing%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  2015-2016%
-\end{minipage}\\[2ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Graduate Student Instructor for ME 523: Computational Fluid Dynamics}\\%
-  University of Michigan, Ann Arbor, MI%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  Fall 2013%
-\end{minipage}\\[3ex]%
-%
-%
-%
-%
-{\sectionfont\color{sectiontitlecolor}{Fellowships and Awards}\hspace*{0.5cm}\raisedrule[0.5ex]{1pt}}\\[0.5ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{AIAA CFD Best Student Paper Award ($3^{\text{d}}$ place)}\\%
-  American Institute of Aeronautics and Astronautics%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  2015%
-\end{minipage}\\[2ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Rackham Predoctoral Fellowship}\\%
-  University of Michigan%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  2015%
-\end{minipage}\\[2ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Rackham Centennial Fellowship}\\%
-  University of Michigan%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  2013%
-\end{minipage}\\[2ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{NIF Poster Winner}\\%
-  Lawrence Livermore National Laboratory 2012 Summer Poster Session%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  2012%
-\end{minipage}\\[2ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{High Distinction}\\%
-  M.S. in Applied Mathematics Engineering at the Universit\'{e} Catholique de Louvain%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  2011%
-\end{minipage}\\[3ex]%
-%
-%
-%
-%
-{\sectionfont\color{sectiontitlecolor}{Volunteer Service and Outreach}\hspace*{0.5cm}\raisedrule[0.5ex]{1pt}}\\[0.5ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{DAPCEP Instructor}\\%
-  Organized and taught a 6-week long engineering discovery course for Detroit-area middle school students%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  Spring 2015%
-\end{minipage}\\[2ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Volunteer Instructor, Adams Academy Engineering Club}\\%
-  Instructed fun basic science and engineering projects at a local primary school%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  2014-2016%
-\end{minipage}\\[2ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Graduate Student Recruiter, University of Michigan}\\%
-  Organized and participated in recruitment events graduate students visiting the Mechanical Engineering department%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  2012-2016%
 \end{minipage}\\[3ex]%
 %
 %
