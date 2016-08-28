@@ -1,9 +1,7 @@
 rm -f *.aux  *.bbl  *.blg  *.dvi  *.log  *.out  *.ps
-pdflatex report;
-pdflatex report;
-bibtex report;
-pdflatex report;
-pdflatex report;
+pdflatex cv;
+pdflatex cv;
+bibtex cv;
+pdflatex cv;
+pdflatex cv;
 rm -f *.aux  *.bbl  *.blg  *.dvi  *.log  *.out  *.ps
-#evince report.pdf;
-cp report.pdf ~/Dropbox/Marc_HenrydeFrahan.pdf

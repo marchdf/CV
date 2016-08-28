@@ -1,0 +1,162 @@
+Contact:
+409 E. Kingsley St Apt 2.
+Ann Arbor, MI, 48104
+marchdf@umich.edu
+(734)747-0156
+
+
+Education:
+Ph.D. in Mechanical Engineering, 2011-2016
+University of Michigan, Ann Arbor, MI
+Thesis: Numerical Simulations of waves, shocks and blasts interacting with interfaces in highly compressible multiphase flows
+Advisor: E. Johnsen, Assistant Professor of Mechanical Engineering
+Selected coursework: Compressible Flow, Advanced Fluid Mechanics, Turbulent Flow, Advanced Heat Transfer, Space Physics, High Energy Density Physics, Data Science Specialization (John Hopkins University through Coursera)
+GPA: 4.00
+
+M.S. in Applied Mathematics Engineering, 2009-2011
+Université Catholique de Louvain, Belgium
+Thesis: Implementation of a Discontinuous Galerkin Method for hyperbolic PDEs on GPUs
+Advisors: Prof. J-F Remacle, Prof. P. Chatelain, Prof. V. Legat.
+
+B.S. in Applied Mathematics Engineering, 2007-2009
+Université Catholique de Louvain, Belgium
+
+
+Research Interests:
+Fluid mechanics - multiphase flows, hydrodynamic instabilities, turbulence
+Code development - CUDA, visualization, parallel I/O, Git
+High order numerical methods for computational fluid dynamics
+High performance computing with graphics processing units
+
+
+References:
+- Eric Johnsen, Assistant Professor of Mechanical Engineering, University of Michigan, 734-647-1450, ejohnsen@umich.edu
+- Paul Drake, Henry S. Carhart Collegiate Professor of Space Sciences, University of Michigan, 734-763-4072, rpdrake@umich.edu
+- Rob Cavallo, Scientist, Lawrence Livermore National Laboratory. 925-422-3277, rcavallo@llnl.gov
+
+
+Research Experience:
+- NextProf Engineering Future Faculty Workshop, University of Michigan, Fall 2015
+  Invited to participate in a workshop to prepare for faculty positions
+
+- International High Performance Computing Summer School, Hungary, Summer 2014
+  Invited to attend NSF workshop to learn new paradigms in scientific computing
+
+- Lawrence Livermore National Laboratory, Livermore, CA, Summer 2012
+  Student intern
+  Comparing Beryllium strength models with experimental data
+  Supervisors: Dr. B. Remington and Dr. R. Cavallo
+
+- Computational Methods in High Energy Density Plasmas, UCLA, CA, Spring 2012
+  Invited to attend a 6 week long workshop by the Institute for Pure and Applied
+    Mathematics at the University of California - Los Angeles
+
+- Lawrence Livermore National Laboratory, Livermore, CA
+  Student intern
+  Studied hydrodynamic instabilities in inertial confinement fusion targets
+  Characterized growth factors during capsule compression
+  Supervisors: Dr. L. J. Suter and Dr. D. S. Clark Summer 2010
+
+- Lawrence Livermore National Laboratory, Livermore, CA
+  Student intern
+  Studied hot electron signatures and capsule preheat in the context of inertial confinement fusion as developed at the National Ignition Facility
+  Supervisors: Dr. L. J. Suter and Dr. C. A. Thomas Summer 2009
+
+- Lawrence Livermore National Laboratory, Livermore, CA
+  Student intern
+  Studied and optimized National Ignition Facility inertial confinement fusion target geometries using view factor calculations
+  Supervisors: Dr. L. J. Suter and Dr. C. A. Thomas Summer 2008
+
+
+Leadership Experience:
+- Sweetland Center for Writing, University of Michigan (Spring 2016)
+  Dissertation Writing Group Leader
+    Lead a group of PhD students in weekly dissertation writing and feedback sessions
+- Mechanical Engineering Graduate Council, University of Michigan (2013-2016)
+   - STEM Communication Chair
+     Communicate graduate student research to lay audiences
+   - President
+     Promote social, academic and professional development for ME graduate students
+   - Graduate Seminar Chair
+     Organize monthly seminars to showcase graduate student research
+   - Graduate Student Advisory Committee, University of Michigan (2014-2015)
+     Representative for Department of Mechanical Engineering
+     Identify and plan activities to promote community among engineering graduate students
+
+
+Mentorship and Teaching Experience:
+- Jalil Alidoost, University of Michigan (2015-2016)
+  Mentored senior undergraduate for a project on diffusive and kinetic properties of chair motion in the Shapiro Library
+- Colby Hanley, University of Michigan (2015-2016)
+  Mentored freshman undergraduate for a project on multi-GPU profiling for high-performance computing
+- Graduate Student Instructor for ME 523: Computational Fluid Dynamics, University of Michigan, Ann Arbor, MI (Fall 2013)
+
+
+Fellowships and Awards:
+- Towner Prize for Distinguished Academic Achievement (2016)
+  University of Michigan
+  Presented to the outstanding graduate student, considering students active participation in research, leadership and academic performance ($1,000)
+- AIAA CFD Best Student Paper Award (3d place)
+  American Institute of Aeronautics and Astronautics 2015
+- Rackham Predoctoral Fellowship
+  University of Michigan
+  Supports outstanding doctoral students for a year 2015
+- Rackham Centennial Fellowship
+  University of Michigan 2013
+- NIF Poster Winner
+  Lawrence Livermore National Laboratory 2012 Summer Poster Session 2012
+- High Distinction
+  M.S. in Applied Mathematics Engineering at the Université Catholique de Louvain 2011
+
+
+Volunteer Service and Outreach:
+- DAPCEP Instructor (Spring 2015)
+  Organized and taught a 6-week long engineering discovery course for Detroit-area middle school students
+- Volunteer Instructor, Adams Academy Engineering Club (2014-2016)
+  Instructed fun basic science and engineering projects at a local primary school
+- Graduate Student Recruiter, University of Michigan (2012-2016)
+  Organized and participated in recruitment events graduate students visiting the Mechanical Engineering department
+
+
+Publications:
+- M. T. Henry de Frahan, J. L. Belof, R. M. Cavallo, V. A. Raevsky, O. N. Ignatova, A. Lebedev, D. S.
+Ancheta, B. S. El-dasher, J. N. Florando, G. F. Gallegos, E. Johnsen and M. M. LeBlanc, Experimental and Numerical Investigations of Beryllium Strength Models Using the Rayleigh-Taylor Instability, featured article in J. Appl. Phys., 117(22):225901, 2015
+- M. T. Henry de Frahan, S. Varadan, and E. Johnsen, A new limiting procedure for discontinuous Galerkin methods applied to compressible multiphase flows with shocks and interfaces, J. Comput. Phys., 280(0):489   509,2015
+- M. T. Henry de Frahan, P. Movahed, and E. Johnsen, Numerical simulations of a shock interacting with successive interfaces using the Discontinuous Galerkin method: the multilayered Richtmyer-Meshkov and Rayleigh-Taylor instabilities, Shock Waves, 25(4):329 345, 2015
+- C. A. Di Stefano, G. Malamud, M. T. Henry de Frahan, C. C. Kuranz, A. Shimony, S. R. Klein, R. P. Drake, E. Johnsen, D. Shvarts, V. A. Smalyuk, and D. Martinez, Observation and modeling of mixing-layer development in high-energy-density, blast-wave-driven shear flow, Phys. Plasmas, 21(5):056306, 2014
+- M. T. Henry de Frahan and E. Johnsen, Mixing in blast-driven hydrodynamic instabilities, In preparation for J. Fluid Mech., 2016
+
+
+Conference Proceedings:
+- M. T. Henry de Frahan, L. Khieu, and E. Johnsen, High-order Discontinuous Galerkin Methods Applied to Multiphase Flows, 22 d AIAA Computational Fluid Dynamics Conference. American Institute of Aeronautics and Astronautics, doi: 10.2514/6.2015-3045, 2015, AIAA CFD Best Student Paper Award (3 d place)
+- M. T. Henry de Frahan and E. Johnsen, Discontinuous Galerkin method for multifluid Euler equations, In 21st AIAA Computational Fluid Dynamics Conference. American Institute of Aeronautics and Astronautics, doi: 10.2514/6.2013-2595, 2013
+- M. T. Henry de Frahan, P. Movahed, and E. Johnsen, Investigating the multilayered Richtmyer-Meshkov instability with high-order accurate numerical methods, In 29th International Symposium on Shock Waves 2, Springer International Publishing, 2015
+
+
+Conference Presentations:
+- M. T. Henry de Frahan, H. Ganesh, S. L. Ceccio, and E. Johnsen, Numerical simulations of high-void-fraction bubbly flow over a wedge, 9 th International Symposium on Cavitation, Dec. 2015, Lausanne, Switzerland
+- M. T. Henry de Frahan, E. Johnsen, Interactions of Blast Waves with Perturbed Interfaces, APS 68 th Meeting of the Division of Fluid Dynamics, Nov. 2015, Boston, MA
+- M. T. Henry de Frahan, L. Khieu, and E. Johnsen, High-order Discontinuous Galerkin Methods Applied to Multiphase Flows, 23 d AIAA Computational Fluid Dynamics Conference, Jun. 2013, Dallas, Tx
+- M. T. Henry de Frahan, E. Johnsen, Numerical simulations of hydrodynamic instabilities with GPUs, IPAM Computational Methods in High Energy Density Plasmas Reunion Conference, Dec. 2014, Lake Arrowhead, CA
+- M. T. Henry de Frahan, E. Johnsen, Hydrodynamic instabilities in blast-driven systems, APS 67 th Meeting of the Division of Fluid Dynamics, Nov. 2014, San Francisco, CA
+- M. T. Henry de Frahan, R. P. Drake, E. Johnsen, Hydrodynamic instabilities of finite width layers, APS 56 th Meeting of the Division of Plasma Physics, Oct. 2014, New Orleans, LA
+- E. Johnsen, M. T. Henry de Frahan, S. A. Beig, Numerical simulations of gas-liquid interfaces in compressible flows, AIAA Aviation Forum, Jun. 2014, Atlanta, GA
+- M. T. Henry de Frahan, E. Johnsen, Blast-driven hydrodynamic instability, APS 66 th Meeting of the Division of Fluid Dynamics, Nov. 2013, Pittsburgh, PA
+- M. T. Henry de Frahan, J. L. Belof, R. M. Cavallo, O. Ignatova, E. Johnsen, B. A. Remington, V. Raevsky, Analysis of recent Beryllium Rayleigh-Taylor experiments, Fundamentals of Pu Workshop XIII, Sep. 2013, Sarov, Russia
+- M. T. Henry de Frahan, P. Movahed, E. Johnsen, Investigating the multi-layered Richtmyer-Meshkov instability with high-order accurate numerical methods, 29 th International Symposium on Shock Waves, Jul. 2013, Madison, WI
+- M. T. Henry de Frahan, E. Johnsen, Discontinuous Galerkin method for multifluid Euler equations, 21 st AIAA Computational Fluid Dynamics Conference, Jun. 2013, San Diego, CA
+- M. T. Henry de Frahan, J. L. Belof, R. M. Cavallo, O. Ignatova, E. Johnsen, B. A. Remington, V. Raevsky, Beryllium strength under extreme dynamic loading conditions, APS 54 th Meeting of the Division of Plasma Physics, Oct. 2012, Providence, RI
+
+
+Skills:
+Scientific programming: C/C++, Python, Git, Bash, R, C for CUDA, MPI, OpenMP, L A TEX, VisIt, Gmsh, Matlab
+Operating systems: GNU/Linux, Windows
+
+
+Languages:
+English, French
+
+
+Memberships:
+American Physical Society (2012-2016)
+American Institute of Aeronautics and Astronautics (2012-2016)
