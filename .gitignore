@@ -1,1 +1,6 @@
 *.doc
+.DS_Store
+auto/
+*.aux
+*.log
+*.out
