@@ -31,6 +31,7 @@
   pdfkeywords={\FileKeyWords}}
 \usepackage{enumitem}
 \setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt,topsep=0pt, leftmargin=*}
+\usepackage{fontawesome}
 
 %=================================================================================
 % Usefull commands
@@ -59,8 +60,38 @@
 \end{minipage}\hfill%
 \begin{minipage}[t]{0.3\textwidth}\flushright%
   \vspace*{1ex}%
-  {\addressfont\color{addresscolor}marchdf@gmail.com\\\href{https://github.com/marchdf}{github.com/marchdf}}%
-\end{minipage}\\[2em]%
+  {\addressfont\color{addresscolor}
+    \faEnvelope\ \href{mailto:marchdf@gmail.com}{marchdf@gmail.com}\\
+    \faGithub\ \href{https://github.com/marchdf}{github.com/marchdf}\\
+    \faGraduationCap\ \href{https://scholar.google.com/citations?user=STlyQNwAAAAJ&hl=en}{Google Scholar}\\
+    \faGlobe\ \href{http://marchdf.github.io}{marchdf.github.io}
+  }
+  %{\addressfont\color{addresscolor}marchdf@gmail.com\\\href{https://github.com/marchdf}{github.com/marchdf}\\\href{https://scholar.google.com/citations?user=STlyQNwAAAAJ&hl=en}{scholar.google.com}}%
+\end{minipage}\\[1em]%
+%
+%
+%
+%
+{\sectionfont\color{sectiontitlecolor}{Highlighted work in GPU Programming}\hspace*{0.5cm}\raisedrule[0.5ex]{1pt}}\\[0.5ex]%
+\begin{minipage}[t]{\textwidth}%
+  \textbf{Programming GPUs since 2011}%
+  \begin{itemize}
+  \item[-] Writing CUDA kernels for compressible fluid dynamics, Ph.D. and M.S. thesis%
+  \item[-] Implementing performance portable frameworks for exascale  (Kokkos, AMReX) %
+  \item[-] Developing ECP software for early access to new exascale systems (Frontier, Aurora)%
+  \end{itemize}\vspace*{1ex}%
+  \textbf{High impact leader for GPU capable software }%
+  \begin{itemize}
+  \item[-] More than 1000 contributions annually to open-source for the past 5 years (\href{https://github.com/marchdf}{github.com/marchdf})%
+  \item[-] Principal developer of Exascale Computing Project software (Pele, ExaWind)%
+  \item[-] Principal investigator of GPU porting projects
+  \end{itemize}\vspace*{1ex}%
+  \textbf{Leveraging GPUs for ML/AI}%
+  \begin{itemize}
+  \item[-] Developed Deep Learning models for physics-based applications%
+  \item[-] Developed Reinforcement Learning methods for control of complex applications%
+  \end{itemize}
+\end{minipage}\\[2ex]%
 %
 %
 %
@@ -76,14 +107,14 @@
 \end{minipage}\hfill%
 \begin{minipage}[t]{0.15\textwidth}\flushright%
   2019-present%
-\end{minipage}\\[3ex]%
+\end{minipage}\\[1ex]%
 \begin{minipage}[t]{0.82\textwidth}%
   \textbf{Post-doctoral Researcher, National Renewable Energy Laboratory}\\%
   Next-generation simulations of wind farms and reacting flow processes%
 \end{minipage}\hfill%
 \begin{minipage}[t]{0.15\textwidth}\flushright%
   2016-2019%
-\end{minipage}\\[3ex]%
+\end{minipage}\\[2ex]%
 %
 %
 %
@@ -97,7 +128,7 @@
 \end{minipage}\hfill%
 \begin{minipage}[t]{0.15\textwidth}\flushright%
   2011-2016%
-\end{minipage}\\[2ex]%
+\end{minipage}\\[1ex]%
 \begin{minipage}[t]{0.82\textwidth}%
   \textbf{M.S. in Applied Mathematics Engineering}\\%
   Universit\'{e} Catholique de Louvain, Belgium\\%
@@ -106,14 +137,14 @@
 \end{minipage}\hfill%
 \begin{minipage}[t]{0.15\textwidth}\flushright%
   2009-2011%
-\end{minipage}\\[2ex]%
+\end{minipage}\\[1ex]%
 \begin{minipage}[t]{0.82\textwidth}%
   \textbf{B.S. in Applied Mathematics Engineering}\\%
   Universit\'{e} Catholique de Louvain, Belgium%
 \end{minipage}\hfill%
 \begin{minipage}[t]{0.15\textwidth}\flushright%
   2007-2009%
-\end{minipage}\\[3ex]%
+\end{minipage}\\[2ex]%
 %
 %
 %
@@ -124,54 +155,137 @@
 % Energy - reacting flows, wind turbines and farms\\%
 % High order numerical methods for computational fluid dynamics\\%
 % High performance computing with graphics processing units\\
-% Machine learning for improved physics models\\[3ex]%
+% Machine learning for improved physics models\\[2ex]%
 %
 %
 %
 %
-{\sectionfont\color{sectiontitlecolor}{Journal Articles}\hspace*{0.5cm}\raisedrule[0.5ex]{1pt}}\\[0.5ex]%
-\href{https://doi.org/10.5194/wes-2024-155}{L. Cheung, G. Yalla, P. Mohan, A. Hsieh, K. Brown, N. deVelder, D. Houck, M. T. {Henry de Frahan}, M. Day, M. A. Sprague, \textbf{Modeling the effects of active wake mixing on wake behavior through large-scale coherent structures}, \textit{Wind Energy Science}, 2025}\\[2ex]
-\href{https://doi.org/10.1109/MCSE.2025.3556567}{S. Yellapantula, N. T. Wimer, M. T. {Henry de Frahan}, Sreejith N. A., M. J. Martin, B. A. Perry, H. Sitaraman, M. Rahimi,  M. Day, \textbf{Accelerating Innovative Energy Solutions Using Combustion Simulations}, \textit{Computing in Science and Engineering}, 2025}\\[2ex]
-\href{https://doi.org/10.1109/MCSE.2025.3555589}{K. P. Griffin, H. Egan, M. T. {Henry de Frahan}, J. Mueller, D. Vaidhynatha, D. Wald, R. Chintala, O. A. Doronina, H. Sitaraman, E. Young, R. King, J. Sanyal, M. Day, \textbf{Adaptive Computing for Scale-up Problems}, \textit{Computing in Science and Engineering}, 2025}\\[2ex]
-\href{https://doi.org/10.1002/we.70010}{M. B. Kuhn, M. T. {Henry de Frahan}, P. Mohan, G. Deskos, M. Churchfield, L. Cheung, A. Sharma, A. Almgren, S. Ananthan, M. J. Brazell, L. A. {Martinez-Tossas}, R. Thedin, J. Rood, P. Sakievich, G. Vijayakumar, W. Zhang, M. A. Sprague, \textbf{AMR-Wind: A performance-portable, high-fidelity flow solver for wind farm simulations}, \textit{Wind Energy}, vol. 28, 5, 2025}\\[2ex]
-\href{https://doi.org/10.1016/j.combustflame.2024.113740}{M. Hassanaly, N. T. Wimer, A. Felden, L. Esclapez, J. Ream, M. T. {Henry de Frahan}, J. Rood, M. Day, \textbf{Symbolic construction of the chemical Jacobian of quasi-steady state (QSS) chemistries for Exascale computing platforms}, \textit{Comb. and Flame}, vol. 270, 113740, 2024}\\[2ex]
-\href{https://doi.org/10.1016/j.jcp.2024.112879}{I. Barrio Sanchez, A. S. Almgren, J. B. Bell, M. T. Henry de Frahan, W. Zhang, \textbf{A New Re-redistribution Scheme for Weighted State Redistribution with Adaptive Mesh Refinement}, \textit{J. Comp. Phys.}, vol. 504, 1, 112879, 2024}\\[2ex]
-\href{https://doi.org/10.1137/1.9781611977967.2}{M. T. Henry de Frahan, L. Esclapez, J. Rood, N. T. Wimer, P. Mullowney, B. A. Perry, L. Owen, H. Sitaraman, S. Yellapantula, M. Hassanaly, M. J. Rahimi, M. J. Martin, O. A. Doronina, Sreejith N. A., M. Rieth, W. Ge, R. Sankaran, A. S. Almgren, W. Zhang, J. B. Bell, R. Grout, M. S. Day, and J. H. Chen, \textbf{The Pele Simulation Suite for Reacting Flows at Exascale}, \textit{Proc. 2024 SIAM Conf. Parallel Proc. Sc. Comput.}, 15-25, 2024}\\[2ex]
-\href{https://doi.org/10.1002/we.2886}{A. Sharma, M. J Brazell, G. Vijayakumar, S. Ananthan, L. Cheung, N. deVelder, M. T. Henry de Frahan, N. Matula, P. Mullowney, J. Rood, P. Sakievich, A. Almgren, P. S Crozier, M. Sprague, \textbf{ExaWind: Open-source CFD for hybrid-RANS/LES geometry-resolved wind turbine simulations in atmospheric flows}, \textit{Wind Energy}, vol 27, 3, 225-257, 2024}\\[2ex]
-\href{https://doi.org/10.1103/PhysRevFluids.8.110511}{N. Wimer, L. Esclapez, N. Brunhart-Lupo, M. T. Henry de Frahan, M. Rahimi, M. Hassanaly, J. Rood, S. Yellapantula, H. Sitaraman, B. Perry, M. Martin, O. Doronina, S. Appukuttan, M. Reith, M. Day, \textbf{Visualizations of a Methane/Diesel RCCI Engine using PeleC and PeleLMeX}, \textit{Phys. Rev. Fluids}, 8, 110511, 2023}\\[2ex]
-\href{https://doi.org/10.21105/joss.05450}{L. Esclapez, M. Day, J. Bell, A. Felden, C. Gilet, R. Grout, M. T. Henry de Frahan, E. Motheau, A. Nonaka, L. Owen, B. Perry, J. Rood, N. Wimer, and W. Zhang, \textbf{PeleLMeX: an AMR Low Mach Number Reactive Flow Simulation Code without level sub-cycling}, \textit{J. Open Source Software}, 8, 90, 5450, 2023}\\[2ex]
-\href{https://doi.org/10.1177/1468087423118400}{N. T Wimer, M. T. Henry de Frahan, S. Yellapantula, \textbf{Deep reinforcement learning to discover multi-fuel injection strategies for compression ignition engines}, \textit{Int. J. Eng. Res.}, vol 24, 9, 2023}\\[2ex]
-\href{https://doi.org/10.1103/PhysRevFluids.6.110504}{A. Giuliani, A.S. Almgren, J.B. Bell, M.J. Berger, M.T. Henry de Frahan, D. Rangarajan, \textbf{A weighted state redistribution algorithm for embedded boundary grids}, \textit{J. Comp. Phys.}, 111305, 2022}\\[2ex]
-\href{https://doi.org/10.1177/10943420221121151}{M. T. Henry de Frahan, J. S. Rood, M. S. Day, H. Sitaraman, S. Yellapantula, B. A. Perry, R. W. Grout, A. Almgren, W. Zhang, J. B. Bell, J. H. Chen, \textbf{PeleC: An adaptive mesh refinement solver for compressible reacting flows}, \textit{Int. J. High. Perf. Comp. App.}, vol. 37, 2, 2022}\\[2ex]
-\href{https://doi.org/10.1016/j.combustflame.2022.112286}{B. Perry, M. T. Henry de Frahan, S. Yellapantula, \textbf{Co-optimized machine-learned manifold models for large eddy simulation of turbulent combustion}, \textit{Comb. and Flame}, 244, 112286, 2022}\\[2ex]
-\href{https://doi.org/10.1103/PhysRevFluids.6.110504}{H. Sitaraman, N. Brunhart-Lupo, M. T. Henry de Frahan, S. Yellapantula, B. Perry, J. Rood, R. Grout, M. S. Day, R. Binyahib, K. Gruchalla, \textbf{Visualizations of direct fuel injection effects in a supersonic cavity flameholder}, \textit{Phys. Rev. Fluids}, 6, 110504, 2021}\\[2ex]
-\href{https://doi.org/10.1615/Int.J.UncertaintyQuantification.2021036467 }{J Quick, R. King, M. T. Henry de Frahan, S. Ananthan, M. Sprague, P. Hamlington, \textbf{Field Sensitivity Analysis of Turbulence Model Parameters for Flow Over a Wing}, \textit{Int. J. Uncert. Quant.}, vol. 12, 1, 85--106, 2022}\\[2ex]
-\href{https://doi.org/10.1016/j.combustflame.2021.111531}{H. Sitaraman, S. Yellapantula, M. T. Henry de Frahan, B. Perry, J. Rood, R. W. Grout, M. S. Day, \textbf{Adaptive mesh based combustion simulations of direct fuel injection effects in a supersonic cavity flame-holder}, \textit{Comb. and Flame}, 232, 111531, 2021}\\[2ex]
-\href{https://doi.org/10.1177/14680874211019345}{M. T. Henry de Frahan, N. T Wimer, S. Yellapantula, R. W. Grout, \textbf{Deep reinforcement learning for dynamic control of fuel injection timing in multi-pulse compression ignition engines}, \textit{Int. J. Eng. Res.}, vol 23, 9, 2021}\\[2ex]
-\href{https://link.springer.com/chapter/10.1007/978-3-030-44718-2_14}{S. Yellapantula, M. T. Henry de Frahan, R. King, M. S. Day, R. W. Grout, \textbf{Machine learning of combustion LES models from reacting direct numerical simulation}, \textit{Data Analysis for Direct Num. Sim. of Turb. Comb.}, Pages 273-292, 2020}\\[2ex]
-\href{https://doi.org/10.1016/j.combustflame.2019.07.015}{M. T. Henry de Frahan, S. Yellapantula, R. King, M. S. Day, and R. W. Grout, \textbf{Deep learning for presumed probability density function models}, \textit{Comb. and Flame}, 208:436--450, Pages 436-450, 2019}\\[2ex]%
-\href{http://arxiv.org/abs/1903.00091}{P. Mohan, M. T. Henry de Frahan, R. King, and R. Grout, \textbf{A block-random algorithm for learning on distributed, heterogeneous data}, \textit{arXiv:1903.00091}, 2019}\\[2ex]%
-\href{http://arxiv.org/abs/1901.11113}{M. T. Henry de Frahan, and R. Grout, \textbf{Data recovery in computational fluid dynamics through deep image priors}, \textit{arXiv:1901.11113}, 2019}\\[2ex]%
-\href{http://dx.doi.org/10.1063/1.4922336}{M. T. Henry de Frahan, J. L. Belof, R. M. Cavallo, V. A. Raevsky, O. N. Ignatova, A. Lebedev, D. S. Ancheta, B. S. El-dasher, J. N. Florando, G. F. Gallegos, E. Johnsen, and M. M. LeBlanc, \textbf{Experimental and Numerical Investigations of Beryllium Strength Models Using the Rayleigh-Taylor Instability}, \textit{featured article in J. Appl. Phys.}, 117(22):225901, 2015}\\[2ex]%
-\href{http://dx.doi.org/10.1016/j.jcp.2014.09.030}{M. T. Henry de Frahan, S. Varadan, and E. Johnsen, \textbf{A new limiting procedure for discontinuous Galerkin methods applied to compressible multiphase flows with shocks and interfaces}, \textit{J. Comput. Phys.}, 280(0):489 -- 509, 2015}\\[2ex]%
-\href{http://dx.doi.org/10.1007/s00193-014-0539-y}{M. T. Henry de Frahan, P. Movahed, and E. Johnsen, \textbf{Numerical simulations of a shock interacting with successive interfaces using the Discontinuous Galerkin method: the multilayered Richtmyer-Meshkov and Rayleigh-Taylor instabilities}, \textit{Shock Waves}, 25(4):329--345, 2015}\\[2ex]%
-\href{http://dx.doi.org/10.1063/1.4872223}{C. A. Di Stefano, G. Malamud, M. T. Henry de Frahan, C. C. Kuranz, A. Shimony, S. R. Klein, R. P. Drake, E. Johnsen, D. Shvarts, V. A. Smalyuk, and D. Martinez, \textbf{Observation and modeling of mixing-layer development in high-energy-density, blast-wave-driven shear flow}, \textit{Phys. Plasmas}, 21(5):056306, 2014}\\[2ex]%
-%M. T. Henry de Frahan and E. Johnsen, \textbf{Mixing in blast-driven hydrodynamic instabilities}, \textit{In preparation for J. Fluid Mech.}, 2016\\[3ex]%
+{\sectionfont\color{sectiontitlecolor}{Leadership and Mentorship Experience}\hspace*{0.5cm}\raisedrule[0.5ex]{1pt}}\\[0.5ex]%
+\begin{minipage}[t]{0.82\textwidth}%
+  \textbf{Principal Investigator, Scalable Parallel Discrete Events Simulations, NREL}\\%
+  Develop performance portable GPU parallel discrete events simulations (550k)%
+\end{minipage}\hfill%
+\begin{minipage}[t]{0.15\textwidth}\flushright%
+  2023-Present%
+\end{minipage}\\[1ex]%
+\begin{minipage}[t]{0.82\textwidth}%
+  \textbf{Principal Investigator, Adaptive Mesh and Algorithm Refinement, NREL}\\%
+  Develop two-way coupled continuum-atomistic modeling framework  (500k)%
+\end{minipage}\hfill%
+\begin{minipage}[t]{0.15\textwidth}\flushright%
+  2021-2023%
+\end{minipage}\\[1ex]%
+\begin{minipage}[t]{0.82\textwidth}%
+  \textbf{Acting Group Manager for the High Performance Algorithms and Complex Fluids group, NREL}\\%
+  Group lead for a team of 15+ scientists%
+\end{minipage}\hfill%
+\begin{minipage}[t]{0.15\textwidth}\flushright%
+  2020-2021%
+\end{minipage}\\[1ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{NREL Postdoctoral Committee}\\%
+%   Organizing networking and professional development activities%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   2016-2018%
+% \end{minipage}\\[1ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{Sweetland Center for Writing, University of Michigan}\\%
+%   Dissertation Writing Group Leader\\%
+%   Lead a group of PhD students in weekly dissertation writing and feedback sessions%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   Spring 2016%
+% \end{minipage}\\[1ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{Mechanical Engineering Graduate Council, University of Michigan}\\%
+%   - STEM Communication Chair\\%
+%   \hphantom{-} Communicate graduate student research to lay audiences\\[1ex]%
+%   - President\\%
+%   \hphantom{-} Promote social, academic and professional development for ME graduate students\\[1ex]%
+%   - Graduate Seminar Chair\\%
+%   \hphantom{-} Organize monthly seminars to showcase graduate student research%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   2013-2016%
+% \end{minipage}\\[1ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{Graduate Student Advisory Committee, University of Michigan}\\%
+%   Representative for Department of Mechanical Engineering\\%
+%   Identify and plan activities to promote community among engineering graduate students%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   2014-2015%
+% \end{minipage}\\[2ex]%
+\begin{minipage}[t]{0.82\textwidth}%
+  \textbf{Mentoring students and scientists, NREL and University of Michigan}\\%
+  Mentored more than 10 students, post-docs, and junior scientists%
+\end{minipage}\hfill%
+\begin{minipage}[t]{0.15\textwidth}\flushright%
+  2013-Present%
+\end{minipage}\\[2ex]%
+%
+%
+%
+%
+{\sectionfont\color{sectiontitlecolor}{Selected Recent Journal Articles on GPU and ML/AI}\hspace*{0.5cm}\raisedrule[0.5ex]{1pt}}\\[0.5ex]%
+\href{https://doi.org/10.1002/we.70010}{M. B. Kuhn, M. T. {Henry de Frahan}, et al., \textbf{AMR-Wind: A performance-portable, high-fidelity flow solver for wind farm simulations}, \textit{Wind Energy}, vol. 28, 5, 2025}\\[1ex]
+\href{https://doi.org/10.1137/1.9781611977967.2}{M. T. Henry de Frahan, et al., \textbf{The Pele Simulation Suite for Reacting Flows at Exascale}, \textit{Proc. 2024 SIAM Conf. Parallel Proc. Sc. Comput.}, 15-25, 2024}\\[1ex]
+\href{https://doi.org/10.1002/we.2886}{A. Sharma, \dots, M. T. Henry de Frahan, et al., \textbf{ExaWind: Open-source CFD for hybrid-RANS/LES geometry-resolved wind turbine simulations in atmospheric flows}, \textit{Wind Energy}, vol 27, 3, 225-257, 2024}\\[1ex]
+\href{https://doi.org/10.21105/joss.05450}{L. Esclapez, \dots, M. T. Henry de Frahan, et al., \textbf{PeleLMeX: an AMR Low Mach Number Reactive Flow Simulation Code without level sub-cycling}, \textit{J. Open Source Software}, 8, 90, 5450, 2023}\\[1ex]
+\href{https://doi.org/10.1177/1468087423118400}{N. T Wimer, M. T. Henry de Frahan, et al., \textbf{Deep reinforcement learning to discover multi-fuel injection strategies for compression ignition engines}, \textit{Int. J. Eng. Res.}, vol 24, 9, 2023}\\[1ex]
+\href{https://doi.org/10.1145/3581784.3607065}{N. Malaya, \dots, M. T. Henry de Frahan, et al., \textbf{Experiences Readying Applications for Exascale}, \textit{SC23 Proc. Int. Conf. HPC}, 2023}\\[1ex]%
+\href{https://doi.org/10.1177/10943420221121151}{M. T. Henry de Frahan, et al., \textbf{PeleC: An adaptive mesh refinement solver for compressible reacting flows}, \textit{Int. J. High. Perf. Comp. App.}, vol. 37, 2, 2022}\\[1ex]
+\href{https://doi.org/10.1016/j.combustflame.2022.112286}{B. Perry, M. T. Henry de Frahan, et al. \textbf{Co-optimized machine-learned manifold models for large eddy simulation of turbulent combustion}, \textit{Comb. and Flame}, 244, 112286, 2022}\\[1ex]
+\href{https://doi.org/10.1177/14680874211019345}{M. T. Henry de Frahan, et al., \textbf{Deep reinforcement learning for dynamic control of fuel injection timing in multi-pulse compression ignition engines}, \textit{Int. J. Eng. Res.}, vol 23, 9, 2021}\\[1ex]
+\href{https://doi.org/10.1016/j.combustflame.2019.07.015}{M. T. Henry de Frahan, et al., \textbf{Deep learning for presumed probability density function models}, \textit{Comb. and Flame}, 208:436--450, Pages 436-450, 2019}\\[1ex]%
+%
+%
+%
+%
+% {\sectionfont\color{sectiontitlecolor}{Journal Articles}\hspace*{0.5cm}\raisedrule[0.5ex]{1pt}}\\[0.5ex]%
+% \href{https://doi.org/10.5194/wes-2024-155}{L. Cheung, G. Yalla, P. Mohan, A. Hsieh, K. Brown, N. deVelder, D. Houck, M. T. {Henry de Frahan}, M. Day, M. A. Sprague, \textbf{Modeling the effects of active wake mixing on wake behavior through large-scale coherent structures}, \textit{Wind Energy Science}, 2025}\\[1ex]
+% \href{https://doi.org/10.1109/MCSE.2025.3556567}{S. Yellapantula, N. T. Wimer, M. T. {Henry de Frahan}, Sreejith N. A., M. J. Martin, B. A. Perry, H. Sitaraman, M. Rahimi,  M. Day, \textbf{Accelerating Innovative Energy Solutions Using Combustion Simulations}, \textit{Computing in Science and Engineering}, 2025}\\[1ex]
+% \href{https://doi.org/10.1109/MCSE.2025.3555589}{K. P. Griffin, H. Egan, M. T. {Henry de Frahan}, J. Mueller, D. Vaidhynatha, D. Wald, R. Chintala, O. A. Doronina, H. Sitaraman, E. Young, R. King, J. Sanyal, M. Day, \textbf{Adaptive Computing for Scale-up Problems}, \textit{Computing in Science and Engineering}, 2025}\\[1ex]
+% \href{https://doi.org/10.1002/we.70010}{M. B. Kuhn, M. T. {Henry de Frahan}, P. Mohan, G. Deskos, M. Churchfield, L. Cheung, A. Sharma, A. Almgren, S. Ananthan, M. J. Brazell, L. A. {Martinez-Tossas}, R. Thedin, J. Rood, P. Sakievich, G. Vijayakumar, W. Zhang, M. A. Sprague, \textbf{AMR-Wind: A performance-portable, high-fidelity flow solver for wind farm simulations}, \textit{Wind Energy}, vol. 28, 5, 2025}\\[1ex]
+% \href{https://doi.org/10.1016/j.combustflame.2024.113740}{M. Hassanaly, N. T. Wimer, A. Felden, L. Esclapez, J. Ream, M. T. {Henry de Frahan}, J. Rood, M. Day, \textbf{Symbolic construction of the chemical Jacobian of quasi-steady state (QSS) chemistries for Exascale computing platforms}, \textit{Comb. and Flame}, vol. 270, 113740, 2024}\\[1ex]
+% \href{https://doi.org/10.1016/j.jcp.2024.112879}{I. Barrio Sanchez, A. S. Almgren, J. B. Bell, M. T. Henry de Frahan, W. Zhang, \textbf{A New Re-redistribution Scheme for Weighted State Redistribution with Adaptive Mesh Refinement}, \textit{J. Comp. Phys.}, vol. 504, 1, 112879, 2024}\\[1ex]
+% \href{https://doi.org/10.1137/1.9781611977967.2}{M. T. Henry de Frahan, L. Esclapez, J. Rood, N. T. Wimer, P. Mullowney, B. A. Perry, L. Owen, H. Sitaraman, S. Yellapantula, M. Hassanaly, M. J. Rahimi, M. J. Martin, O. A. Doronina, Sreejith N. A., M. Rieth, W. Ge, R. Sankaran, A. S. Almgren, W. Zhang, J. B. Bell, R. Grout, M. S. Day, and J. H. Chen, \textbf{The Pele Simulation Suite for Reacting Flows at Exascale}, \textit{Proc. 2024 SIAM Conf. Parallel Proc. Sc. Comput.}, 15-25, 2024}\\[1ex]
+% \href{https://doi.org/10.1002/we.2886}{A. Sharma, M. J Brazell, G. Vijayakumar, S. Ananthan, L. Cheung, N. deVelder, M. T. Henry de Frahan, N. Matula, P. Mullowney, J. Rood, P. Sakievich, A. Almgren, P. S Crozier, M. Sprague, \textbf{ExaWind: Open-source CFD for hybrid-RANS/LES geometry-resolved wind turbine simulations in atmospheric flows}, \textit{Wind Energy}, vol 27, 3, 225-257, 2024}\\[1ex]
+% \href{https://doi.org/10.1103/PhysRevFluids.8.110511}{N. Wimer, L. Esclapez, N. Brunhart-Lupo, M. T. Henry de Frahan, M. Rahimi, M. Hassanaly, J. Rood, S. Yellapantula, H. Sitaraman, B. Perry, M. Martin, O. Doronina, S. Appukuttan, M. Reith, M. Day, \textbf{Visualizations of a Methane/Diesel RCCI Engine using PeleC and PeleLMeX}, \textit{Phys. Rev. Fluids}, 8, 110511, 2023}\\[1ex]
+% \href{https://doi.org/10.21105/joss.05450}{L. Esclapez, M. Day, J. Bell, A. Felden, C. Gilet, R. Grout, M. T. Henry de Frahan, E. Motheau, A. Nonaka, L. Owen, B. Perry, J. Rood, N. Wimer, and W. Zhang, \textbf{PeleLMeX: an AMR Low Mach Number Reactive Flow Simulation Code without level sub-cycling}, \textit{J. Open Source Software}, 8, 90, 5450, 2023}\\[1ex]
+% \href{https://doi.org/10.1177/1468087423118400}{N. T Wimer, M. T. Henry de Frahan, S. Yellapantula, \textbf{Deep reinforcement learning to discover multi-fuel injection strategies for compression ignition engines}, \textit{Int. J. Eng. Res.}, vol 24, 9, 2023}\\[1ex]
+% \href{https://doi.org/10.1103/PhysRevFluids.6.110504}{A. Giuliani, A.S. Almgren, J.B. Bell, M.J. Berger, M.T. Henry de Frahan, D. Rangarajan, \textbf{A weighted state redistribution algorithm for embedded boundary grids}, \textit{J. Comp. Phys.}, 111305, 2022}\\[1ex]
+% \href{https://doi.org/10.1177/10943420221121151}{M. T. Henry de Frahan, J. S. Rood, M. S. Day, H. Sitaraman, S. Yellapantula, B. A. Perry, R. W. Grout, A. Almgren, W. Zhang, J. B. Bell, J. H. Chen, \textbf{PeleC: An adaptive mesh refinement solver for compressible reacting flows}, \textit{Int. J. High. Perf. Comp. App.}, vol. 37, 2, 2022}\\[1ex]
+% \href{https://doi.org/10.1016/j.combustflame.2022.112286}{B. Perry, M. T. Henry de Frahan, S. Yellapantula, \textbf{Co-optimized machine-learned manifold models for large eddy simulation of turbulent combustion}, \textit{Comb. and Flame}, 244, 112286, 2022}\\[1ex]
+% \href{https://doi.org/10.1103/PhysRevFluids.6.110504}{H. Sitaraman, N. Brunhart-Lupo, M. T. Henry de Frahan, S. Yellapantula, B. Perry, J. Rood, R. Grout, M. S. Day, R. Binyahib, K. Gruchalla, \textbf{Visualizations of direct fuel injection effects in a supersonic cavity flameholder}, \textit{Phys. Rev. Fluids}, 6, 110504, 2021}\\[1ex]
+% \href{https://doi.org/10.1615/Int.J.UncertaintyQuantification.2021036467 }{J Quick, R. King, M. T. Henry de Frahan, S. Ananthan, M. Sprague, P. Hamlington, \textbf{Field Sensitivity Analysis of Turbulence Model Parameters for Flow Over a Wing}, \textit{Int. J. Uncert. Quant.}, vol. 12, 1, 85--106, 2022}\\[1ex]
+% \href{https://doi.org/10.1016/j.combustflame.2021.111531}{H. Sitaraman, S. Yellapantula, M. T. Henry de Frahan, B. Perry, J. Rood, R. W. Grout, M. S. Day, \textbf{Adaptive mesh based combustion simulations of direct fuel injection effects in a supersonic cavity flame-holder}, \textit{Comb. and Flame}, 232, 111531, 2021}\\[1ex]
+% \href{https://doi.org/10.1177/14680874211019345}{M. T. Henry de Frahan, N. T Wimer, S. Yellapantula, R. W. Grout, \textbf{Deep reinforcement learning for dynamic control of fuel injection timing in multi-pulse compression ignition engines}, \textit{Int. J. Eng. Res.}, vol 23, 9, 2021}\\[1ex]
+% \href{https://link.springer.com/chapter/10.1007/978-3-030-44718-2_14}{S. Yellapantula, M. T. Henry de Frahan, R. King, M. S. Day, R. W. Grout, \textbf{Machine learning of combustion LES models from reacting direct numerical simulation}, \textit{Data Analysis for Direct Num. Sim. of Turb. Comb.}, Pages 273-292, 2020}\\[1ex]
+% \href{https://doi.org/10.1016/j.combustflame.2019.07.015}{M. T. Henry de Frahan, S. Yellapantula, R. King, M. S. Day, and R. W. Grout, \textbf{Deep learning for presumed probability density function models}, \textit{Comb. and Flame}, 208:436--450, Pages 436-450, 2019}\\[1ex]%
+% \href{http://arxiv.org/abs/1903.00091}{P. Mohan, M. T. Henry de Frahan, R. King, and R. Grout, \textbf{A block-random algorithm for learning on distributed, heterogeneous data}, \textit{arXiv:1903.00091}, 2019}\\[1ex]%
+% \href{http://arxiv.org/abs/1901.11113}{M. T. Henry de Frahan, and R. Grout, \textbf{Data recovery in computational fluid dynamics through deep image priors}, \textit{arXiv:1901.11113}, 2019}\\[1ex]%
+% \href{http://dx.doi.org/10.1063/1.4922336}{M. T. Henry de Frahan, J. L. Belof, R. M. Cavallo, V. A. Raevsky, O. N. Ignatova, A. Lebedev, D. S. Ancheta, B. S. El-dasher, J. N. Florando, G. F. Gallegos, E. Johnsen, and M. M. LeBlanc, \textbf{Experimental and Numerical Investigations of Beryllium Strength Models Using the Rayleigh-Taylor Instability}, \textit{featured article in J. Appl. Phys.}, 117(22):225901, 2015}\\[1ex]%
+% \href{http://dx.doi.org/10.1016/j.jcp.2014.09.030}{M. T. Henry de Frahan, S. Varadan, and E. Johnsen, \textbf{A new limiting procedure for discontinuous Galerkin methods applied to compressible multiphase flows with shocks and interfaces}, \textit{J. Comput. Phys.}, 280(0):489 -- 509, 2015}\\[1ex]%
+% \href{http://dx.doi.org/10.1007/s00193-014-0539-y}{M. T. Henry de Frahan, P. Movahed, and E. Johnsen, \textbf{Numerical simulations of a shock interacting with successive interfaces using the Discontinuous Galerkin method: the multilayered Richtmyer-Meshkov and Rayleigh-Taylor instabilities}, \textit{Shock Waves}, 25(4):329--345, 2015}\\[1ex]%
+% \href{http://dx.doi.org/10.1063/1.4872223}{C. A. Di Stefano, G. Malamud, M. T. Henry de Frahan, C. C. Kuranz, A. Shimony, S. R. Klein, R. P. Drake, E. Johnsen, D. Shvarts, V. A. Smalyuk, and D. Martinez, \textbf{Observation and modeling of mixing-layer development in high-energy-density, blast-wave-driven shear flow}, \textit{Phys. Plasmas}, 21(5):056306, 2014}\\[1ex]%
+%M. T. Henry de Frahan and E. Johnsen, \textbf{Mixing in blast-driven hydrodynamic instabilities}, \textit{In preparation for J. Fluid Mech.}, 2016\\[2ex]%
 % 
 %
 %
 %
-{\sectionfont\color{sectiontitlecolor}{Conference Proceedings}\hspace*{0.5cm}\raisedrule[0.5ex]{1pt}}\\[0.5ex]%
-\href{https://www.osti.gov/biblio/1975823}{N. T. Wimer, L. Esclapez, M. T. Henry de Frahan, M. Rahimi, M. Hassanaly, B. Perry, J. Rood, S. Yellapantula, H. Sitaraman, M. Martin, O. Doronina, S. Nadakkal Appukuttan, M. Rieth, M. Day, \textbf{Examination of a Methane/Diesel RCCI Engine Using Pele}, \textit{$13^{\text{th}}$ U.S. National Combustion Meeting}, 2023}\\[2ex]%
-\href{https://arxiv.org/abs/2310.01586}{P. T. Bauman et al, \textbf{Experiences Readying Applications for Exascale}, \textit{Supercomputing}, 2023}\\[2ex]%
-\href{https://doi.org/10.1115/GT2023-101568}{M. T. Henry de Frahan, M. Rahimi, O. Doronina, B. Perry, S. Yellapantula, I. Cormier, M. Day, M. Martin, \textbf{Simulation of Methane Oxycombustion in Supercritical Carbon Dioxide}, \textit{Turbomachinery Technical Conference and Exposition, ASME}, doi: 10.1115/GT2023-101568, 2023}\\[2ex]%
-\href{https://doi.org/10.2514/6.2023-1542}{S. A Beig, G. R. Whitehouse, A. H. Boschitsch, A. Sharma, M. J. Brazell, M. T Henry de Frahan, M. A. Sprague, \textbf{Developing a Vorticity-Velocity-Based Off-Body Solver to Perform Multifidelity Simulations of Wind Farms}, \textit{2022 AIAA SCITECH Forum. American Institute of Aeronautics and Astronautics}, doi: 10.2514/6.2023-1542, 2022}\\[2ex]%
-\href{https://arc.aiaa.org/doi/abs/10.2514/6.2022-1922}{C. Adcock, M. T. Henry de Frahan, J. Melvin, G. Vijayakumar, S. Ananthan, G. Iaccarino, R. D. Moser, and M. Sprague, \textbf{Hybrid RANS-LES of the Atmospheric Boundary Layer for Wind Farm Simulations}, \textit{2022 AIAA SCITECH Forum. American Institute of Aeronautics and Astronautics}, doi: 10.2514/6.2022-1922, 2021}\\[2ex]%
-\href{}{J. Melvin, M. T. Henry de Frahan, S. Ananthan, G. Vijayakumar, M. Sprague, R. Moser, \textbf{Using the Active Model Split Hybrid Turbulence Model for the Simulation of Blade-Resolved Wind Turbines}, \textit{Wind Energy Science Conference}, 2021}\\[2ex]%
-\href{}{S. Yellapantula, B. A. Perry, M. T. Henry de Frahan, M. E. Mueller, and R. W. Grout, \textbf{Machine Learning based models for joint PDF shapes for multi-scalar mixing in turbulent flows}, \textit{$11^{\text{th}}$ U.S. National Combustion Meeting}, 2019}\\[2ex]%
-\href{http://arc.aiaa.org/doi/pdf/10.2514/6.2015-3045}{M. T. Henry de Frahan, L. Khieu, and E. Johnsen, \textbf{High-order Discontinuous Galerkin Methods Applied to Multiphase Flows}, \textit{$22^{\text{d}}$ AIAA Computational Fluid Dynamics Conference. American Institute of Aeronautics and Astronautics}, doi: 10.2514/6.2015-3045, 2015, AIAA CFD Best Student Paper Award ($3^{\text{d}}$ place)}\\[2ex]%
-\href{http://arc.aiaa.org/doi/pdf/10.2514/6.2013-2595}{M. T. Henry de Frahan and E. Johnsen, \textbf{Discontinuous Galerkin method for multifluid Euler equations}, \textit{In 21st AIAA Computational Fluid Dynamics Conference. American Institute of Aeronautics and Astronautics}, doi: 10.2514/6.2013-2595, 2013}\\[2ex]%
-\href{https://books.google.com/books?id=6GgnCgAAQBAJ&pg=PA1095&lr=&source=gbs_selected_pages&cad=2#v=onepage&q&f=false}{M. T. Henry de Frahan, P. Movahed, and E. Johnsen, \textbf{Investigating the multilayered Richtmyer-Meshkov instability with high-order accurate numerical methods}, \textit{In 29th International Symposium on Shock Waves 2, Springer International Publishing}, 2015}\\[3ex]%
+% {\sectionfont\color{sectiontitlecolor}{Conference Proceedings}\hspace*{0.5cm}\raisedrule[0.5ex]{1pt}}\\[0.5ex]%
+% \href{https://www.osti.gov/biblio/1975823}{N. T. Wimer, L. Esclapez, M. T. Henry de Frahan, M. Rahimi, M. Hassanaly, B. Perry, J. Rood, S. Yellapantula, H. Sitaraman, M. Martin, O. Doronina, S. Nadakkal Appukuttan, M. Rieth, M. Day, \textbf{Examination of a Methane/Diesel RCCI Engine Using Pele}, \textit{$13^{\text{th}}$ U.S. National Combustion Meeting}, 2023}\\[1ex]%
+% \href{https://arxiv.org/abs/2310.01586}{P. T. Bauman et al, \textbf{Experiences Readying Applications for Exascale}, \textit{Supercomputing}, 2023}\\[1ex]%
+% \href{https://doi.org/10.1115/GT2023-101568}{M. T. Henry de Frahan, M. Rahimi, O. Doronina, B. Perry, S. Yellapantula, I. Cormier, M. Day, M. Martin, \textbf{Simulation of Methane Oxycombustion in Supercritical Carbon Dioxide}, \textit{Turbomachinery Technical Conference and Exposition, ASME}, doi: 10.1115/GT2023-101568, 2023}\\[1ex]%
+% \href{https://doi.org/10.2514/6.2023-1542}{S. A Beig, G. R. Whitehouse, A. H. Boschitsch, A. Sharma, M. J. Brazell, M. T Henry de Frahan, M. A. Sprague, \textbf{Developing a Vorticity-Velocity-Based Off-Body Solver to Perform Multifidelity Simulations of Wind Farms}, \textit{2022 AIAA SCITECH Forum. American Institute of Aeronautics and Astronautics}, doi: 10.2514/6.2023-1542, 2022}\\[1ex]%
+% \href{https://arc.aiaa.org/doi/abs/10.2514/6.2022-1922}{C. Adcock, M. T. Henry de Frahan, J. Melvin, G. Vijayakumar, S. Ananthan, G. Iaccarino, R. D. Moser, and M. Sprague, \textbf{Hybrid RANS-LES of the Atmospheric Boundary Layer for Wind Farm Simulations}, \textit{2022 AIAA SCITECH Forum. American Institute of Aeronautics and Astronautics}, doi: 10.2514/6.2022-1922, 2021}\\[1ex]%
+% \href{}{J. Melvin, M. T. Henry de Frahan, S. Ananthan, G. Vijayakumar, M. Sprague, R. Moser, \textbf{Using the Active Model Split Hybrid Turbulence Model for the Simulation of Blade-Resolved Wind Turbines}, \textit{Wind Energy Science Conference}, 2021}\\[1ex]%
+% \href{}{S. Yellapantula, B. A. Perry, M. T. Henry de Frahan, M. E. Mueller, and R. W. Grout, \textbf{Machine Learning based models for joint PDF shapes for multi-scalar mixing in turbulent flows}, \textit{$11^{\text{th}}$ U.S. National Combustion Meeting}, 2019}\\[1ex]%
+% \href{http://arc.aiaa.org/doi/pdf/10.2514/6.2015-3045}{M. T. Henry de Frahan, L. Khieu, and E. Johnsen, \textbf{High-order Discontinuous Galerkin Methods Applied to Multiphase Flows}, \textit{$22^{\text{d}}$ AIAA Computational Fluid Dynamics Conference. American Institute of Aeronautics and Astronautics}, doi: 10.2514/6.2015-3045, 2015, AIAA CFD Best Student Paper Award ($3^{\text{d}}$ place)}\\[1ex]%
+% \href{http://arc.aiaa.org/doi/pdf/10.2514/6.2013-2595}{M. T. Henry de Frahan and E. Johnsen, \textbf{Discontinuous Galerkin method for multifluid Euler equations}, \textit{In 21st AIAA Computational Fluid Dynamics Conference. American Institute of Aeronautics and Astronautics}, doi: 10.2514/6.2013-2595, 2013}\\[1ex]%
+% \href{https://books.google.com/books?id=6GgnCgAAQBAJ&pg=PA1095&lr=&source=gbs_selected_pages&cad=2#v=onepage&q&f=false}{M. T. Henry de Frahan, P. Movahed, and E. Johnsen, \textbf{Investigating the multilayered Richtmyer-Meshkov instability with high-order accurate numerical methods}, \textit{In 29th International Symposium on Shock Waves 2, Springer International Publishing}, 2015}\\[2ex]%
 %
 %
 %
@@ -190,25 +304,25 @@
 % % “Co-optimized Machine-learned Manifold Models for Large Eddy Simulation of Turbulent Combustion” presented at NCM2021
 % % SIAM CSE21 talk: “Adaptive Mesh Refinement Large Eddy Simulation of the Supercritical Carbon Dioxide Round Turbulent Jet”
 % % 2022 AIAA SciTech Forum paper: “Hybrid RANS-LES of the Atmospheric Boundary Layer for Wind Farm Simulations”
-% M. T. Henry de Frahan, R. King, R. Grout, \textbf{Data recovery for computational fluid dynamics using deep image priors}, \textit{SIAM CSE}, Feb. 2019, Spokane, WA\\[2ex]%
-% M. T. Henry de Frahan, S. Yellapantula, R. King, M. Day, R. Grout, \textbf{A-priori analysis of joint PDF of mixture fraction and progress variable trained using machine learning techniques}, \textit{APS $71^{\text{st}}$ Meeting of the Division of Fluid Dynamics}, Nov. 2018, Atlanta, GA\\[2ex]%
-% S. Yellapantula, M. T. Henry de Frahan, R. King, M. Day, R. Grout, \textbf{A-priori analysis of a data driven closure model trained from a reacting DNS of a Low-Swirl Burner}, \textit{APS $71^{\text{st}}$ Meeting of the Division of Fluid Dynamics}, Nov. 2018, Atlanta, GA\\[2ex]%
-% M. T. Henry de Frahan, S. Yellapantula, G. Vijayakumar, R. Knaus, M. Sprague, \textbf{Hybrid RANS-LES using high-order numerical methods}, \textit{APS $70^{\text{th}}$ Meeting of the Division of Fluid Dynamics}, Nov. 2017, Denver, CO\\[2ex]%
-% M. T. Henry de Frahan, M. S. Day, J. B. Bell, R. W. Grout, \textbf{Filtering in large eddy simulations with adaptive mesh refinement}, \textit{$29^{\text{th}}$ Parallel CFD Conference}, May 2017, Glasgow, Scotland\\[2ex]%
-% M. T. Henry de Frahan, E. Johnsen, \textbf{Circulation in blast driven instabilities}, \textit{APS $69^{\text{th}}$ Meeting of the Division of Fluid Dynamics}, Nov. 2016, Portland, OR\\[2ex]%
-% M. T. Henry de Frahan, S. Beig, B. Aboulhasanzadeh, H. Ganesh, S. L. Ceccio, and E. Johnsen, \textbf{A new mixture model for compressible multiphase flows}, \textit{$9^{\text{th}}$ International Conference on Multiphase Flow}, May 2016, Firenze, Italy\\[2ex]%
-% M. T. Henry de Frahan, H. Ganesh, S. L. Ceccio, and E. Johnsen, \textbf{Numerical simulations of high-void-fraction bubbly flow over a wedge}, \textit{$9^{\text{th}}$ International Symposium on Cavitation}, Dec. 2015, Lausanne, Switzerland\\[2ex]%
-% M. T. Henry de Frahan, E. Johnsen, \textbf{Interactions of Blast Waves with Perturbed Interfaces}, \textit{APS $68^{\text{th}}$ Meeting of the Division of Fluid Dynamics}, Nov. 2015, Boston, MA\\[2ex]%
-% M. T. Henry de Frahan, L. Khieu, and E. Johnsen, \textbf{High-order Discontinuous Galerkin Methods Applied to Multiphase Flows}, \textit{$23^{\text{d}}$ AIAA Computational Fluid Dynamics Conference}, Jun. 2015, Dallas, Tx\\[2ex]%
-% M. T. Henry de Frahan, E. Johnsen, \textbf{Numerical simulations of hydrodynamic instabilities with GPUs}, \textit{IPAM Computational Methods in High Energy Density Plasmas Reunion Conference}, Dec. 2014, Lake Arrowhead, CA\\[2ex]%
-% M. T. Henry de Frahan, E. Johnsen, \textbf{Hydrodynamic instabilities in blast-driven systems}, \textit{APS $67^{\text{th}}$ Meeting of the Division of Fluid Dynamics}, Nov. 2014, San Francisco, CA\\[2ex]%
-% M. T. Henry de Frahan, R. P. Drake, E. Johnsen, \textbf{Hydrodynamic instabilities of finite width layers}, \textit{APS ${56^{\text{th}}}$ Meeting of the Division of Plasma Physics}, Oct. 2014, New Orleans, LA\\[2ex]%
-% E. Johnsen, M. T. Henry de Frahan, S. A. Beig, \textbf{Numerical simulations of gas-liquid interfaces in compressible flows}, \textit{AIAA Aviation Forum}, Jun. 2014, Atlanta, GA\\[2ex]%
-% M. T. Henry de Frahan, E. Johnsen, \textbf{Blast-driven hydrodynamic instability}, \textit{APS $66^{\text{th}}$ Meeting of the Division of Fluid Dynamics}, Nov. 2013, Pittsburgh, PA\\[2ex]%
-% M. T. Henry de Frahan, J. L. Belof, R. M. Cavallo, O. Ignatova, E. Johnsen, B. A. Remington, V. Raevsky, \textbf{Analysis of recent Beryllium Rayleigh-Taylor experiments}, \textit{Fundamentals of Pu Workshop XIII}, Sep. 2013, Sarov, Russia\\[2ex]%
-% M. T. Henry de Frahan, P. Movahed, E. Johnsen, \textbf{Investigating the multi-layered Richtmyer-Meshkov instability with high-order accurate numerical methods}, \textit{$29^{\text{th}}$ International Symposium on Shock Waves}, Jul. 2013, Madison, WI\\[2ex]%
-% M. T. Henry de Frahan, E. Johnsen, \textbf{Discontinuous Galerkin method for multifluid Euler equations}, \textit{$21^{\text{st}}$ AIAA Computational Fluid Dynamics Conference}, Jun. 2013, San Diego, CA\\[2ex]%
-% M. T. Henry de Frahan, J. L. Belof, R. M. Cavallo, O. Ignatova, E. Johnsen, B. A. Remington, V. Raevsky, \href{http://meeting.aps.org/Meeting/DPP12/Event/176052}{\textbf{Beryllium strength under extreme dynamic loading conditions}}, \textit{APS $54^{\text{th}}$ Meeting of the Division of Plasma Physics}, Oct. 2012, Providence, RI\\[3ex]%
+% M. T. Henry de Frahan, R. King, R. Grout, \textbf{Data recovery for computational fluid dynamics using deep image priors}, \textit{SIAM CSE}, Feb. 2019, Spokane, WA\\[1ex]%
+% M. T. Henry de Frahan, S. Yellapantula, R. King, M. Day, R. Grout, \textbf{A-priori analysis of joint PDF of mixture fraction and progress variable trained using machine learning techniques}, \textit{APS $71^{\text{st}}$ Meeting of the Division of Fluid Dynamics}, Nov. 2018, Atlanta, GA\\[1ex]%
+% S. Yellapantula, M. T. Henry de Frahan, R. King, M. Day, R. Grout, \textbf{A-priori analysis of a data driven closure model trained from a reacting DNS of a Low-Swirl Burner}, \textit{APS $71^{\text{st}}$ Meeting of the Division of Fluid Dynamics}, Nov. 2018, Atlanta, GA\\[1ex]%
+% M. T. Henry de Frahan, S. Yellapantula, G. Vijayakumar, R. Knaus, M. Sprague, \textbf{Hybrid RANS-LES using high-order numerical methods}, \textit{APS $70^{\text{th}}$ Meeting of the Division of Fluid Dynamics}, Nov. 2017, Denver, CO\\[1ex]%
+% M. T. Henry de Frahan, M. S. Day, J. B. Bell, R. W. Grout, \textbf{Filtering in large eddy simulations with adaptive mesh refinement}, \textit{$29^{\text{th}}$ Parallel CFD Conference}, May 2017, Glasgow, Scotland\\[1ex]%
+% M. T. Henry de Frahan, E. Johnsen, \textbf{Circulation in blast driven instabilities}, \textit{APS $69^{\text{th}}$ Meeting of the Division of Fluid Dynamics}, Nov. 2016, Portland, OR\\[1ex]%
+% M. T. Henry de Frahan, S. Beig, B. Aboulhasanzadeh, H. Ganesh, S. L. Ceccio, and E. Johnsen, \textbf{A new mixture model for compressible multiphase flows}, \textit{$9^{\text{th}}$ International Conference on Multiphase Flow}, May 2016, Firenze, Italy\\[1ex]%
+% M. T. Henry de Frahan, H. Ganesh, S. L. Ceccio, and E. Johnsen, \textbf{Numerical simulations of high-void-fraction bubbly flow over a wedge}, \textit{$9^{\text{th}}$ International Symposium on Cavitation}, Dec. 2015, Lausanne, Switzerland\\[1ex]%
+% M. T. Henry de Frahan, E. Johnsen, \textbf{Interactions of Blast Waves with Perturbed Interfaces}, \textit{APS $68^{\text{th}}$ Meeting of the Division of Fluid Dynamics}, Nov. 2015, Boston, MA\\[1ex]%
+% M. T. Henry de Frahan, L. Khieu, and E. Johnsen, \textbf{High-order Discontinuous Galerkin Methods Applied to Multiphase Flows}, \textit{$23^{\text{d}}$ AIAA Computational Fluid Dynamics Conference}, Jun. 2015, Dallas, Tx\\[1ex]%
+% M. T. Henry de Frahan, E. Johnsen, \textbf{Numerical simulations of hydrodynamic instabilities with GPUs}, \textit{IPAM Computational Methods in High Energy Density Plasmas Reunion Conference}, Dec. 2014, Lake Arrowhead, CA\\[1ex]%
+% M. T. Henry de Frahan, E. Johnsen, \textbf{Hydrodynamic instabilities in blast-driven systems}, \textit{APS $67^{\text{th}}$ Meeting of the Division of Fluid Dynamics}, Nov. 2014, San Francisco, CA\\[1ex]%
+% M. T. Henry de Frahan, R. P. Drake, E. Johnsen, \textbf{Hydrodynamic instabilities of finite width layers}, \textit{APS ${56^{\text{th}}}$ Meeting of the Division of Plasma Physics}, Oct. 2014, New Orleans, LA\\[1ex]%
+% E. Johnsen, M. T. Henry de Frahan, S. A. Beig, \textbf{Numerical simulations of gas-liquid interfaces in compressible flows}, \textit{AIAA Aviation Forum}, Jun. 2014, Atlanta, GA\\[1ex]%
+% M. T. Henry de Frahan, E. Johnsen, \textbf{Blast-driven hydrodynamic instability}, \textit{APS $66^{\text{th}}$ Meeting of the Division of Fluid Dynamics}, Nov. 2013, Pittsburgh, PA\\[1ex]%
+% M. T. Henry de Frahan, J. L. Belof, R. M. Cavallo, O. Ignatova, E. Johnsen, B. A. Remington, V. Raevsky, \textbf{Analysis of recent Beryllium Rayleigh-Taylor experiments}, \textit{Fundamentals of Pu Workshop XIII}, Sep. 2013, Sarov, Russia\\[1ex]%
+% M. T. Henry de Frahan, P. Movahed, E. Johnsen, \textbf{Investigating the multi-layered Richtmyer-Meshkov instability with high-order accurate numerical methods}, \textit{$29^{\text{th}}$ International Symposium on Shock Waves}, Jul. 2013, Madison, WI\\[1ex]%
+% M. T. Henry de Frahan, E. Johnsen, \textbf{Discontinuous Galerkin method for multifluid Euler equations}, \textit{$21^{\text{st}}$ AIAA Computational Fluid Dynamics Conference}, Jun. 2013, San Diego, CA\\[1ex]%
+% M. T. Henry de Frahan, J. L. Belof, R. M. Cavallo, O. Ignatova, E. Johnsen, B. A. Remington, V. Raevsky, \href{http://meeting.aps.org/Meeting/DPP12/Event/176052}{\textbf{Beryllium strength under extreme dynamic loading conditions}}, \textit{APS $54^{\text{th}}$ Meeting of the Division of Plasma Physics}, Oct. 2012, Providence, RI\\[2ex]%
 % %\cvpres{M. T. Henry de Frahan, J. L. Belof, R. M. Cavallo, O. Ignatova, E. Johnsen, B. A. Remington, V. Raevsky}{Beryllium strength under extreme dynamic loading conditions}{Annual MIPSE Poster Symposium}{October 2012}{Michigan State University, MI}{}%
 % %\cvpres{M. T. Henry de Frahan, D. S. Clark, L. J. Suter}{Hydrodynamic instabilities in inertial confinement fusion targets}{WCI Summer Presentation}{Sept. 2010}{Livermore, CA}{}%
 % %\cvpres{M. T. Henry de Frahan, C. A. Thomas, L. J. Suter}{Hot electron signatures and preheat}{WCI Summer Presentation}{Sept. 2009}{Livermore, CA}{}%
@@ -222,378 +336,410 @@
 %
 %
 %
-{\sectionfont\color{sectiontitlecolor}{Awards and Fellowships}\hspace*{0.5cm}\raisedrule[0.5ex]{1pt}}\\[0.5ex]%
+{\sectionfont\color{sectiontitlecolor}{Recent Awards}\hspace*{0.5cm}\raisedrule[0.5ex]{1pt}}\\[0.5ex]%
 \begin{minipage}[t]{0.82\textwidth}%
-  \textbf{President’s Team Award}\\%
-  National Renewable Energy Laboratory%
+  \textbf{President’s Team Award}, for GPU speedup of ExaWind, NREL%
 \end{minipage}\hfill%
 \begin{minipage}[t]{0.15\textwidth}\flushright%
   2024%
-\end{minipage}\\[2ex]%
+\end{minipage}\\[0ex]%
 \begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Best Visualization Award}\\%
-  Supercomputing 2023%
+  \textbf{Best Visualization Award} for ExaWind at Supercomputing 2023%
 \end{minipage}\hfill%
 \begin{minipage}[t]{0.15\textwidth}\flushright%
   2023%
-\end{minipage}\\[2ex]%
+\end{minipage}\\[0ex]%
 \begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Chairperson’s Team Award}\\%
-  National Renewable Energy Laboratory%
+  \textbf{Chairperson’s Team Award} for GPU speedup of Pele, NREL%
 \end{minipage}\hfill%
 \begin{minipage}[t]{0.15\textwidth}\flushright%
   2023%
-\end{minipage}\\[2ex]%
+\end{minipage}\\[0ex]%
 \begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Milton van Dyke Award}\\%
-  American Physical Society - Division of Fluid Dynamics%
+  \textbf{Milton van Dyke Award} for Pele visualization, American Physical Society%
 \end{minipage}\hfill%
 \begin{minipage}[t]{0.15\textwidth}\flushright%
   2022%
-\end{minipage}\\[2ex]%
+\end{minipage}\\[0ex]%
 \begin{minipage}[t]{0.82\textwidth}%
-  \textbf{President’s Award for Exceptional Performance}\\%
-  National Renewable Energy Laboratory%
+  \textbf{President’s Award for Exceptional Performance}, AI/ML development, NREL%
 \end{minipage}\hfill%
 \begin{minipage}[t]{0.15\textwidth}\flushright%
   2022%
-\end{minipage}\\[2ex]%
+\end{minipage}\\[0ex]%
 \begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Gallery of Fluid Motion Award Winners}\\%
-  American Physical Society - Division of Fluid Dynamics%
+  \textbf{Gallery of Fluid Motion Award Winners} for Pele Visualization, APS%
 \end{minipage}\hfill%
 \begin{minipage}[t]{0.15\textwidth}\flushright%
   2020%
-\end{minipage}\\[2ex]%
+\end{minipage}\\[0ex]%
 \begin{minipage}[t]{0.82\textwidth}%
-  \textbf{President’s Team Award}\\%
-  National Renewable Energy Laboratory%
+  \textbf{President’s Team Award} for AI work on GPUs, NREL%
 \end{minipage}\hfill%
 \begin{minipage}[t]{0.15\textwidth}\flushright%
   2019%
 \end{minipage}\\[2ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Better Scientific Software Fellowship (honorable mention)}\\%
-  \href{https://bssw.io/blog_posts/introducing-the-2018-bssw-fellows}{Better Scientific Software (Department of Energy organization)}%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  2018%
-\end{minipage}\\[2ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{AIAA CFD Best Student Paper Award ($3^{\text{d}}$ place)}\\%
-  American Institute of Aeronautics and Astronautics%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  2015%
-\end{minipage}\\[2ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Rackham Predoctoral Fellowship}\\%
-  University of Michigan%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  2015%
-\end{minipage}\\[2ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Rackham Centennial Fellowship}\\%
-  University of Michigan%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  2013%
-\end{minipage}\\[2ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{Better Scientific Software Fellowship (honorable mention)}\\%
+%   \href{https://bssw.io/blog_posts/introducing-the-2018-bssw-fellows}{Better Scientific Software (Department of Energy organization)}%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   2018%
+% \end{minipage}\\[1ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{AIAA CFD Best Student Paper Award ($3^{\text{d}}$ place)}\\%
+%   American Institute of Aeronautics and Astronautics%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   2015%
+% \end{minipage}\\[1ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{Rackham Predoctoral Fellowship}\\%
+%   University of Michigan%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   2015%
+% \end{minipage}\\[1ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{Rackham Centennial Fellowship}\\%
+%   University of Michigan%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   2013%
+% \end{minipage}\\[1ex]%
 % \begin{minipage}[t]{0.82\textwidth}%
 %   \textbf{NIF Poster Winner}\\%
 %   Lawrence Livermore National Laboratory 2012 Summer Poster Session%
 % \end{minipage}\hfill%
 % \begin{minipage}[t]{0.15\textwidth}\flushright%
 %   2012%
+% \end{minipage}\\[1ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{High Distinction}\\%
+%   M.S. in Applied Mathematics Engineering at the Universit\'{e} Catholique de Louvain%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   2011%
 % \end{minipage}\\[2ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{High Distinction}\\%
-  M.S. in Applied Mathematics Engineering at the Universit\'{e} Catholique de Louvain%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  2011%
-\end{minipage}\\[3ex]%
 %
 %
 %
 %
-{\sectionfont\color{sectiontitlecolor}{Leadership Experience}\hspace*{0.5cm}\raisedrule[0.5ex]{1pt}}\\[0.5ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Principal Investigator, Scalable Parallel Discrete Events Simulations, NREL}\\%
-  Develop performance portable GPU parallel discrete events simulations (550k)%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  2023-2025%
-\end{minipage}\\[2ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Principal Investigator, Adaptive Mesh and Algorithm Refinement, NREL}\\%
-  Develop two-way coupled continuum-atomistic modeling framework  (500k)%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  2021-2023%
-\end{minipage}\\[2ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Acting Group Manager for the High Performance Algorithms and Complex Fluids group, NREL}\\%
-  Group lead for a team of 15+ scientists%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  2020-2021%
-\end{minipage}\\[2ex]%
+%
+%
+%
+%
+% {\sectionfont\color{sectiontitlecolor}{Awards and Fellowships}\hspace*{0.5cm}\raisedrule[0.5ex]{1pt}}\\[0.5ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{President’s Team Award}\\%
+%   National Renewable Energy Laboratory%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   2024%
+% \end{minipage}\\[1ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{Best Visualization Award}\\%
+%   Supercomputing 2023%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   2023%
+% \end{minipage}\\[1ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{Chairperson’s Team Award}\\%
+%   National Renewable Energy Laboratory%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   2023%
+% \end{minipage}\\[1ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{Milton van Dyke Award}\\%
+%   American Physical Society - Division of Fluid Dynamics%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   2022%
+% \end{minipage}\\[1ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{President’s Award for Exceptional Performance}\\%
+%   National Renewable Energy Laboratory%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   2022%
+% \end{minipage}\\[1ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{Gallery of Fluid Motion Award Winners}\\%
+%   American Physical Society - Division of Fluid Dynamics%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   2020%
+% \end{minipage}\\[1ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{President’s Team Award}\\%
+%   National Renewable Energy Laboratory%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   2019%
+% \end{minipage}\\[1ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{Better Scientific Software Fellowship (honorable mention)}\\%
+%   \href{https://bssw.io/blog_posts/introducing-the-2018-bssw-fellows}{Better Scientific Software (Department of Energy organization)}%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   2018%
+% \end{minipage}\\[1ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{AIAA CFD Best Student Paper Award ($3^{\text{d}}$ place)}\\%
+%   American Institute of Aeronautics and Astronautics%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   2015%
+% \end{minipage}\\[1ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{Rackham Predoctoral Fellowship}\\%
+%   University of Michigan%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   2015%
+% \end{minipage}\\[1ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{Rackham Centennial Fellowship}\\%
+%   University of Michigan%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   2013%
+% \end{minipage}\\[1ex]%
+% % \begin{minipage}[t]{0.82\textwidth}%
+% %   \textbf{NIF Poster Winner}\\%
+% %   Lawrence Livermore National Laboratory 2012 Summer Poster Session%
+% % \end{minipage}\hfill%
+% % \begin{minipage}[t]{0.15\textwidth}\flushright%
+% %   2012%
+% % \end{minipage}\\[1ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{High Distinction}\\%
+%   M.S. in Applied Mathematics Engineering at the Universit\'{e} Catholique de Louvain%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   2011%
+% \end{minipage}\\[2ex]%
+%
+%
+%
+%
+% {\sectionfont\color{sectiontitlecolor}{Mentorship and Teaching Experience}\hspace*{0.5cm}\raisedrule[0.5ex]{1pt}}\\[0.5ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{Prakash Mohan, National Renewable Energy Laboratory}\\%
+%   Postdoctoral research mentor%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   2022-Present%
+% \end{minipage}\\[1ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{Arth Sojitra}\\%
+%   Mentor for summer internship on the lattice boltzmann method%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   2023%
+% \end{minipage}\\[1ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{Grace Wei}\\%
+%   CSGF practicum mentor on the kinetic Monte-Carlo methods%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   2023%
+% \end{minipage}\\[1ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{Nick Wimer, National Renewable Energy Laboratory}\\%
+%   Postdoctoral research mentor%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   2019-2021%
+% \end{minipage}\\[1ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{Bruce Perry, National Renewable Energy Laboratory}\\%
+%   Postdoctoral research mentor%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   2019-2021%
+% \end{minipage}\\[1ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{Likhit Ganedi, Carnegie-Mellon Univeristy}\\%
+%   Mentor for summer internship on hybrid particle-continuum solvers%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   2021%
+% \end{minipage}\\[1ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{Jani Adcock, Stanford University}\\%
+%   CSGF practicum mentor, Ph.D. committee member%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   2020-2023%
+% \end{minipage}\\[1ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{Julia Ream, Florida State University}\\%
+%   Co-advisor of Ph.D. committee for work on turbulent supercritical CO2 simulations%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   2019-2023%
+% \end{minipage}\\[1ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{Prakash Mohan, University of Texas-Austin}\\%
+%   Mentored Ph.D. graduate student for a project on deep learning for LES models%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   2018%
+% \end{minipage}\\[1ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{Jalil Alidoost, University of Michigan}\\%
+%   Mentored senior undergraduate for a project on diffusive and kinetic properties of chair motion in the Shapiro Library%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   2015-2016%
+% \end{minipage}\\[1ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{Colby Hanley, University of Michigan}\\%
+%   Mentored freshman undergraduate for a project on multi-GPU profiling for high-performance computing%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   2015-2016%
+% \end{minipage}\\[1ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{Graduate Student Instructor for ME 523: Computational Fluid Dynamics}\\%
+%   University of Michigan, Ann Arbor, MI%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   Fall 2013%
+% \end{minipage}\\[2ex]%
+%
+%
+%
+%
+% {\sectionfont\color{sectiontitlecolor}{Research Experience}\hspace*{0.5cm}\raisedrule[0.5ex]{1pt}}\\[0.5ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{DOE I-Corps Cohort 15}\\%
+%   Department of Energy\\%
+%   Immersive two-month training for researchers to define technology value propositions, conduct stakeholder discovery interviews, and develop viable market pathways for their technologies.%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   Fall 2022%
+% \end{minipage}\\[1ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{Deep Learning Specialization}\\%
+%   Coursera\\%
+%   Topics: neural networks (CNN, RNN), deep learning frameworks (Keras, Tensorflow)%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   2017-2018%
+% \end{minipage}\\[1ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{Argonne Training Program on Extreme-Scale Computing, Argonne National Laboratory}\\%
+%   Invited to an intensive 2-week workshop on high performance computing%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   Summer 2017%
+% \end{minipage}\\[1ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{NextProf Engineering Future Faculty Workshop, University of Michigan}\\%
+%   Invited to participate in a workshop to prepare for faculty positions%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   Fall 2015%
+% \end{minipage}\\[1ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{International High Performance Computing Summer School, Hungary}\\%
+%   Invited to attend NSF workshop to learn new paradigms in scientific computing%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   Summer 2014%
+% \end{minipage}\\[1ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{Lawrence Livermore National Laboratory, Livermore, CA}\\%
+%   Student intern\\%
+%   Comparing Beryllium strength models with experimental data\\%
+%   Supervisors: Dr. B. Remington and Dr. R. Cavallo%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   Summer 2012%
+% \end{minipage}\\[1ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{Computational Methods in High Energy Density Plasmas, UCLA, CA}\\%
+%   Invited to attend a 6 week long workshop by the Institute for Pure and Applied Mathematics at the University of California - Los Angeles%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   Spring 2012%
+% \end{minipage}\\[1ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{Lawrence Livermore National Laboratory, Livermore, CA}\\%
+%   Student intern\\%
+%   Studied hydrodynamic instabilities in inertial confinement fusion targets\\%
+%   Characterized growth factors during capsule compression\\%
+%   Supervisors: Dr. L. J. Suter and Dr. D. S. Clark%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   Summer 2010%
+% \end{minipage}\\[1ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{Lawrence Livermore National Laboratory, Livermore, CA}\\%
+%   Student intern\\% %
+%   Studied hot electron signatures and capsule preheat in the context of inertial confinement fusion as developed at the National Ignition Facility\\%
+%   Supervisors:  Dr. L. J. Suter and Dr. C. A. Thomas%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   Summer 2009%
+% \end{minipage}\\[1ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{Lawrence Livermore National Laboratory, Livermore, CA}\\%
+%   Student intern\\%
+%   Studied and optimized National Ignition Facility inertial confinement fusion target geometries using view factor calculations\\%
+%   Supervisors:  Dr. L. J. Suter and Dr. C. A. Thomas%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   Summer 2008%
+% \end{minipage}\\[2ex]%
+%
+%
+%
+%
+% {\sectionfont\color{sectiontitlecolor}{Volunteer Service and Outreach}\hspace*{0.5cm}\raisedrule[0.5ex]{1pt}}\\[0.5ex]%
 % \begin{minipage}[t]{0.82\textwidth}%
 %   \textbf{NREL Postdoctoral Committee}\\%
 %   Organizing networking and professional development activities%
 % \end{minipage}\hfill%
 % \begin{minipage}[t]{0.15\textwidth}\flushright%
 %   2016-2018%
-% \end{minipage}\\[2ex]%
+% \end{minipage}\\[1ex]%
 % \begin{minipage}[t]{0.82\textwidth}%
-%   \textbf{Sweetland Center for Writing, University of Michigan}\\%
-%   Dissertation Writing Group Leader\\%
-%   Lead a group of PhD students in weekly dissertation writing and feedback sessions%
+%   \textbf{DAPCEP Instructor}\\%
+%   Organized and taught a 6-week long engineering discovery course for Detroit-area middle school students%
 % \end{minipage}\hfill%
 % \begin{minipage}[t]{0.15\textwidth}\flushright%
-%   Spring 2016%
+%   Spring 2015%
+% \end{minipage}\\[1ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{Volunteer Instructor, Adams Academy Engineering Club}\\%
+%   Instructed fun basic science and engineering projects at a local primary school%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   2014-2016%
+% \end{minipage}\\[1ex]%
+% \begin{minipage}[t]{0.82\textwidth}%
+%   \textbf{Graduate Student Recruiter, University of Michigan}\\%
+%   Organized and participated in recruitment events graduate students visiting the Mechanical Engineering department%
+% \end{minipage}\hfill%
+% \begin{minipage}[t]{0.15\textwidth}\flushright%
+%   2012-2016%
 % \end{minipage}\\[2ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Mechanical Engineering Graduate Council, University of Michigan}\\%
-  - STEM Communication Chair\\%
-  \hphantom{-} Communicate graduate student research to lay audiences\\[1ex]%
-  - President\\%
-  \hphantom{-} Promote social, academic and professional development for ME graduate students\\[1ex]%
-  - Graduate Seminar Chair\\%
-  \hphantom{-} Organize monthly seminars to showcase graduate student research%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  2013-2016%
-\end{minipage}\\[2ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Graduate Student Advisory Committee, University of Michigan}\\%
-  Representative for Department of Mechanical Engineering\\%
-  Identify and plan activities to promote community among engineering graduate students%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  2014-2015%
-\end{minipage}\\[3ex]%
 %
 %
 %
 %
-{\sectionfont\color{sectiontitlecolor}{Mentorship and Teaching Experience}\hspace*{0.5cm}\raisedrule[0.5ex]{1pt}}\\[0.5ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Prakash Mohan, National Renewable Energy Laboratory}\\%
-  Postdoctoral research mentor%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  2022-Present%
-\end{minipage}\\[2ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Arth Sojitra}\\%
-  Mentor for summer internship on the lattice boltzmann method%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  2023%
-\end{minipage}\\[2ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Grace Wei}\\%
-  CSGF practicum mentor on the kinetic Monte-Carlo methods%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  2023%
-\end{minipage}\\[2ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Nick Wimer, National Renewable Energy Laboratory}\\%
-  Postdoctoral research mentor%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  2019-2021%
-\end{minipage}\\[2ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Bruce Perry, National Renewable Energy Laboratory}\\%
-  Postdoctoral research mentor%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  2019-2021%
-\end{minipage}\\[2ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Likhit Ganedi, Carnegie-Mellon Univeristy}\\%
-  Mentor for summer internship on hybrid particle-continuum solvers%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  2021%
-\end{minipage}\\[2ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Jani Adcock, Stanford University}\\%
-  CSGF practicum mentor, Ph.D. committee member%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  2020-2023%
-\end{minipage}\\[2ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Julia Ream, Florida State University}\\%
-  Co-advisor of Ph.D. committee for work on turbulent supercritical CO2 simulations%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  2019-2023%
-\end{minipage}\\[2ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Prakash Mohan, University of Texas-Austin}\\%
-  Mentored Ph.D. graduate student for a project on deep learning for LES models%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  2018%
-\end{minipage}\\[2ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Jalil Alidoost, University of Michigan}\\%
-  Mentored senior undergraduate for a project on diffusive and kinetic properties of chair motion in the Shapiro Library%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  2015-2016%
-\end{minipage}\\[2ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Colby Hanley, University of Michigan}\\%
-  Mentored freshman undergraduate for a project on multi-GPU profiling for high-performance computing%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  2015-2016%
-\end{minipage}\\[2ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Graduate Student Instructor for ME 523: Computational Fluid Dynamics}\\%
-  University of Michigan, Ann Arbor, MI%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  Fall 2013%
-\end{minipage}\\[3ex]%
-%
-%
-%
-%
-{\sectionfont\color{sectiontitlecolor}{Research Experience}\hspace*{0.5cm}\raisedrule[0.5ex]{1pt}}\\[0.5ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{DOE I-Corps Cohort 15}\\%
-  Department of Energy\\%
-  Immersive two-month training for researchers to define technology value propositions, conduct stakeholder discovery interviews, and develop viable market pathways for their technologies.%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  Fall 2022%
-\end{minipage}\\[2ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Deep Learning Specialization}\\%
-  Coursera\\%
-  Topics: neural networks (CNN, RNN), deep learning frameworks (Keras, Tensorflow)%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  2017-2018%
-\end{minipage}\\[2ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Argonne Training Program on Extreme-Scale Computing, Argonne National Laboratory}\\%
-  Invited to an intensive 2-week workshop on high performance computing%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  Summer 2017%
-\end{minipage}\\[2ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{NextProf Engineering Future Faculty Workshop, University of Michigan}\\%
-  Invited to participate in a workshop to prepare for faculty positions%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  Fall 2015%
-\end{minipage}\\[2ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{International High Performance Computing Summer School, Hungary}\\%
-  Invited to attend NSF workshop to learn new paradigms in scientific computing%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  Summer 2014%
-\end{minipage}\\[2ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Lawrence Livermore National Laboratory, Livermore, CA}\\%
-  Student intern\\%
-  Comparing Beryllium strength models with experimental data\\%
-  Supervisors: Dr. B. Remington and Dr. R. Cavallo%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  Summer 2012%
-\end{minipage}\\[2ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Computational Methods in High Energy Density Plasmas, UCLA, CA}\\%
-  Invited to attend a 6 week long workshop by the Institute for Pure and Applied Mathematics at the University of California - Los Angeles%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  Spring 2012%
-\end{minipage}\\[2ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Lawrence Livermore National Laboratory, Livermore, CA}\\%
-  Student intern\\%
-  Studied hydrodynamic instabilities in inertial confinement fusion targets\\%
-  Characterized growth factors during capsule compression\\%
-  Supervisors: Dr. L. J. Suter and Dr. D. S. Clark%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  Summer 2010%
-\end{minipage}\\[2ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Lawrence Livermore National Laboratory, Livermore, CA}\\%
-  Student intern\\% %
-  Studied hot electron signatures and capsule preheat in the context of inertial confinement fusion as developed at the National Ignition Facility\\%
-  Supervisors:  Dr. L. J. Suter and Dr. C. A. Thomas%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  Summer 2009%
-\end{minipage}\\[2ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Lawrence Livermore National Laboratory, Livermore, CA}\\%
-  Student intern\\%
-  Studied and optimized National Ignition Facility inertial confinement fusion target geometries using view factor calculations\\%
-  Supervisors:  Dr. L. J. Suter and Dr. C. A. Thomas%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  Summer 2008%
-\end{minipage}\\[3ex]%
-%
-%
-%
-%
-{\sectionfont\color{sectiontitlecolor}{Volunteer Service and Outreach}\hspace*{0.5cm}\raisedrule[0.5ex]{1pt}}\\[0.5ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{NREL Postdoctoral Committee}\\%
-  Organizing networking and professional development activities%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  2016-2018%
-\end{minipage}\\[2ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{DAPCEP Instructor}\\%
-  Organized and taught a 6-week long engineering discovery course for Detroit-area middle school students%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  Spring 2015%
-\end{minipage}\\[2ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Volunteer Instructor, Adams Academy Engineering Club}\\%
-  Instructed fun basic science and engineering projects at a local primary school%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  2014-2016%
-\end{minipage}\\[2ex]%
-\begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Graduate Student Recruiter, University of Michigan}\\%
-  Organized and participated in recruitment events graduate students visiting the Mechanical Engineering department%
-\end{minipage}\hfill%
-\begin{minipage}[t]{0.15\textwidth}\flushright%
-  2012-2016%
-\end{minipage}\\[3ex]%
-%
-%
-%
-%
-{\sectionfont\color{sectiontitlecolor}{Skills}\hspace*{0.5cm}\raisedrule[0.5ex]{1pt}}\\[0.5ex]%
-\textbf{Scientific programming}\\%
-C/C++, Python, \textsc{GPU} (\textsc{CUDA}, \textsc{SYCL}, \textsc{ROCM}, Kokkos, AMReX), \textsc{MPI}, OpenMP, OpenACC, Git\\[2ex]%
-\textbf{Operating systems}\\%
-GNU/Linux, OSX\\[2ex]%
-\textbf{Languages}\\%
-English, French\\[3ex]%
+{\sectionfont\color{sectiontitlecolor}{Scientific Programming Skills}\hspace*{0.5cm}\raisedrule[0.5ex]{1pt}}\\[0.5ex]%
+%\textbf{Scientific programming}\\%
+C/C++, Python, \textsc{GPU} (\textsc{CUDA}, \textsc{SYCL}, \textsc{ROCM}, Kokkos, AMReX), \textsc{MPI}, OpenMP, OpenACC, Git, Pytorch, Tensorflow, OpenGym%\\[1ex]%
+% \textbf{Operating systems}\\%
+% GNU/Linux, OSX\\[1ex]%
+% \textbf{Languages}\\%
+% English, French\\[2ex]%
 %
 %
 %
@@ -604,14 +750,14 @@ English, French\\[3ex]%
 % \end{minipage}\hfill%
 % \begin{minipage}[t]{0.15\textwidth}\flushright%
 %   2012-2018%
-% \end{minipage}\\[2ex]%
+% \end{minipage}\\[1ex]%
 % \begin{minipage}[t]{0.82\textwidth}%
 %   \textbf{American Institute of Aeronautics and Astronautics}%
 % \end{minipage}\hfill%
 % \begin{minipage}[t]{0.15\textwidth}\flushright%
 %   2012-2017%
 % \end{minipage}%
-%% \\[2ex]%
+%% \\[1ex]%
 %% \begin{minipage}[t]{0.82\textwidth}%
 %%   \textbf{\link[Center for Radiative Shock Hydrodynamics]{http://aoss-research.engin.umich.edu/crash/}, University of Michigan}%
 %% \end{minipage}\hfill%
