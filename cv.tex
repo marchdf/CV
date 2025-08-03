@@ -29,6 +29,8 @@
   pdfauthor={\FileAuthor},
   pdfsubject={\FileSubject},
   pdfkeywords={\FileKeyWords}}
+\usepackage{enumitem}
+\setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt,topsep=0pt, leftmargin=*}
 
 %=================================================================================
 % Usefull commands
@@ -65,10 +67,12 @@
 %
 {\sectionfont\color{sectiontitlecolor}{Work Experience}\hspace*{0.5cm}\raisedrule[0.5ex]{1pt}}\\[0.5ex]%
 \begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Computational Scientist, National Renewable Energy Laboratory}\\%
-  Reacting flows, wind turbine physics, performance portability on GPUs, numerical methods, continuum methods, kinetic Monte-Carlo\\%
-  Principal investigator for several projects (\textit{Adaptive Mesh and Algorithm Refinement}, 500k; \textit{Scalable Parallel Discrete Events Simulations}, 550k)\\%
-  Principal developer of several Exascale Computing Project software (Pele, ExaWind)%
+  \textbf{Computational Scientist, National Renewable Energy Laboratory}%
+  \begin{itemize}
+  \item[-] GPU performance portability for reacting flows and wind turbine physics%
+  \item[-] Principal investigator for several projects (\textit{Adaptive Mesh and Algorithm Refinement}, 500k; \textit{Scalable Parallel Discrete Events Simulations}, 550k)%
+  \item[-] Principal developer of Exascale Computing Project software (Pele, ExaWind)%
+  \end{itemize}
 \end{minipage}\hfill%
 \begin{minipage}[t]{0.15\textwidth}\flushright%
   2019-present%
@@ -114,13 +118,13 @@
 %
 %
 %
-{\sectionfont\color{sectiontitlecolor}{Research Interests}\hspace*{0.5cm}\raisedrule[0.5ex]{1pt}}\\[0.5ex]%
-Fluid mechanics - turbulence, multiphase flows, hydrodynamic instabilities\\%
-%Plasma physics - solar wind turbulence, supernovae explosions, fusion energy\\%
-Energy - reacting flows, wind turbines and farms\\%
-High order numerical methods for computational fluid dynamics\\%
-High performance computing with graphics processing units\\
-Machine learning for improved physics models\\[3ex]%
+% {\sectionfont\color{sectiontitlecolor}{Research Interests}\hspace*{0.5cm}\raisedrule[0.5ex]{1pt}}\\[0.5ex]%
+% Fluid mechanics - turbulence, multiphase flows, hydrodynamic instabilities\\%
+% %Plasma physics - solar wind turbulence, supernovae explosions, fusion energy\\%
+% Energy - reacting flows, wind turbines and farms\\%
+% High order numerical methods for computational fluid dynamics\\%
+% High performance computing with graphics processing units\\
+% Machine learning for improved physics models\\[3ex]%
 %
 %
 %
