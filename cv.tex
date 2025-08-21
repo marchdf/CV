@@ -31,6 +31,7 @@
   pdfkeywords={\FileKeyWords}}
 \usepackage{enumitem}
 \setitemize{noitemsep,topsep=0pt,parsep=0pt,partopsep=0pt,topsep=0pt, leftmargin=*}
+\usepackage{fontawesome}
 
 %=================================================================================
 % Usefull commands
@@ -59,8 +60,14 @@
 \end{minipage}\hfill%
 \begin{minipage}[t]{0.3\textwidth}\flushright%
   \vspace*{1ex}%
-  {\addressfont\color{addresscolor}marchdf@gmail.com\\\href{https://github.com/marchdf}{github.com/marchdf}}%
-\end{minipage}\\[2em]%
+  {\addressfont\color{addresscolor}
+    \faEnvelope\ \href{mailto:marchdf@gmail.com}{marchdf@gmail.com}\\
+    \faGithub\ \href{https://github.com/marchdf}{github.com/marchdf}\\
+    \faGraduationCap\ \href{https://scholar.google.com/citations?user=STlyQNwAAAAJ&hl=en}{Google Scholar}\\
+    \faGlobe\ \href{http://marchdf.github.io}{marchdf.github.io}
+  }
+  %{\addressfont\color{addresscolor}marchdf@gmail.com\\\href{https://github.com/marchdf}{github.com/marchdf}\\\href{https://scholar.google.com/citations?user=STlyQNwAAAAJ&hl=en}{scholar.google.com}}%
+\end{minipage}\\[1em]%
 %
 %
 %
@@ -68,18 +75,32 @@
 {\sectionfont\color{sectiontitlecolor}{Work Experience}\hspace*{0.5cm}\raisedrule[0.5ex]{1pt}}\\[0.5ex]%
 \begin{minipage}[t]{0.82\textwidth}%
   \textbf{Computational Scientist, National Renewable Energy Laboratory}%
-  \begin{itemize}
-  \item[-] GPU performance portability for reacting flows and wind turbine physics%
-  \item[-] Principal investigator for several projects (\textit{Adaptive Mesh and Algorithm Refinement}, 500k; \textit{Scalable Parallel Discrete Events Simulations}, 550k)%
-  \item[-] Principal developer of Exascale Computing Project software (Pele, ExaWind)%
+  \textbf{Computational Scientist, National Renewable Energy Laboratory}\vspace*{0.5ex}%
+  \begin{itemize}[itemsep=0.5ex]
+  \item[-] \textbf{Principal Investigator}, Scalable Parallel Discrete Events Simulations, \$550k\\%
+    Developed a GPU solver for parallel discrete events simulations, 2023-2025%
+  \item[-] \textbf{Principal Investigator}, Adaptive Mesh and Algorithm Refinement, \$500k\\%
+    Developed two-way coupled continuum-atomistic modeling framework, 2021-2023%
+  \item[-] \textbf{Acting Group Manager}, High Performance Algorithms and Complex Fluids\\%
+    Group lead for a team of 15+ scientists, 2020-2021%
+  \item[-] \textbf{Principal developer} of Exascale Computing Project software (Pele, ExaWind)\\%
+    Wrote GPU performance portability for reacting flows and wind turbine physics
+  \item[-] \textbf{Lead scientist} of AI/ML investigations\\%
+    Developed AI/ML reduced order models for physics applications using GPUs
+  \item[-] \textbf{Mentor} for scientists and students\\%
+    Mentored more than 10 students, post-docs, and junior scientists%
   \end{itemize}
 \end{minipage}\hfill%
 \begin{minipage}[t]{0.15\textwidth}\flushright%
   2019-present%
 \end{minipage}\\[3ex]%
 \begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Post-doctoral Researcher, National Renewable Energy Laboratory}\\%
-  Next-generation simulations of wind farms and reacting flow processes%
+  \textbf{Post-doctoral Researcher, National Renewable Energy Laboratory}\vspace*{0.5ex}%
+  \begin{itemize}[itemsep=0.5ex]
+  \item[-] Next-generation simulations of wind farms and reacting flow processes%
+  \item[-] Performance analysis and improvement on GPUs for exascale software%
+  \item[-] Deep learning and deep reinforcement learning models for physics applications%
+  \end{itemize}
 \end{minipage}\hfill%
 \begin{minipage}[t]{0.15\textwidth}\flushright%
   2016-2019%
@@ -163,7 +184,7 @@
 %
 {\sectionfont\color{sectiontitlecolor}{Conference Proceedings}\hspace*{0.5cm}\raisedrule[0.5ex]{1pt}}\\[0.5ex]%
 \href{https://www.osti.gov/biblio/1975823}{N. T. Wimer, L. Esclapez, M. T. Henry de Frahan, M. Rahimi, M. Hassanaly, B. Perry, J. Rood, S. Yellapantula, H. Sitaraman, M. Martin, O. Doronina, S. Nadakkal Appukuttan, M. Rieth, M. Day, \textbf{Examination of a Methane/Diesel RCCI Engine Using Pele}, \textit{$13^{\text{th}}$ U.S. National Combustion Meeting}, 2023}\\[2ex]%
-\href{https://arxiv.org/abs/2310.01586}{P. T. Bauman et al, \textbf{Experiences Readying Applications for Exascale}, \textit{Supercomputing}, 2023}\\[2ex]%
+\href{https://doi.org/10.1145/3581784.3607065}{N. Malaya, \dots, M. T. Henry de Frahan, et al., \textbf{Experiences Readying Applications for Exascale}, \textit{SC23 Proc. Int. Conf. HPC}, 2023}\\[2ex]%
 \href{https://doi.org/10.1115/GT2023-101568}{M. T. Henry de Frahan, M. Rahimi, O. Doronina, B. Perry, S. Yellapantula, I. Cormier, M. Day, M. Martin, \textbf{Simulation of Methane Oxycombustion in Supercritical Carbon Dioxide}, \textit{Turbomachinery Technical Conference and Exposition, ASME}, doi: 10.1115/GT2023-101568, 2023}\\[2ex]%
 \href{https://doi.org/10.2514/6.2023-1542}{S. A Beig, G. R. Whitehouse, A. H. Boschitsch, A. Sharma, M. J. Brazell, M. T Henry de Frahan, M. A. Sprague, \textbf{Developing a Vorticity-Velocity-Based Off-Body Solver to Perform Multifidelity Simulations of Wind Farms}, \textit{2022 AIAA SCITECH Forum. American Institute of Aeronautics and Astronautics}, doi: 10.2514/6.2023-1542, 2022}\\[2ex]%
 \href{https://arc.aiaa.org/doi/abs/10.2514/6.2022-1922}{C. Adcock, M. T. Henry de Frahan, J. Melvin, G. Vijayakumar, S. Ananthan, G. Iaccarino, R. D. Moser, and M. Sprague, \textbf{Hybrid RANS-LES of the Atmospheric Boundary Layer for Wind Farm Simulations}, \textit{2022 AIAA SCITECH Forum. American Institute of Aeronautics and Astronautics}, doi: 10.2514/6.2022-1922, 2021}\\[2ex]%
@@ -224,82 +245,71 @@
 %
 {\sectionfont\color{sectiontitlecolor}{Awards and Fellowships}\hspace*{0.5cm}\raisedrule[0.5ex]{1pt}}\\[0.5ex]%
 \begin{minipage}[t]{0.82\textwidth}%
-  \textbf{President’s Team Award}\\%
-  National Renewable Energy Laboratory%
+  \textbf{President’s Team Award}, for GPU speedup of ExaWind, NREL%
 \end{minipage}\hfill%
 \begin{minipage}[t]{0.15\textwidth}\flushright%
   2024%
-\end{minipage}\\[2ex]%
+\end{minipage}\\[1ex]%
 \begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Best Visualization Award}\\%
-  Supercomputing 2023%
+  \textbf{Best Visualization Award} for ExaWind at Supercomputing 2023%
 \end{minipage}\hfill%
 \begin{minipage}[t]{0.15\textwidth}\flushright%
   2023%
-\end{minipage}\\[2ex]%
+\end{minipage}\\[1ex]%
 \begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Chairperson’s Team Award}\\%
-  National Renewable Energy Laboratory%
+  \textbf{Chairperson’s Team Award} for GPU speedup of Pele, NREL%
 \end{minipage}\hfill%
 \begin{minipage}[t]{0.15\textwidth}\flushright%
   2023%
-\end{minipage}\\[2ex]%
+\end{minipage}\\[1ex]%
 \begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Milton van Dyke Award}\\%
-  American Physical Society - Division of Fluid Dynamics%
+  \textbf{Milton van Dyke Award} for Pele visualization, American Physical Society%
 \end{minipage}\hfill%
 \begin{minipage}[t]{0.15\textwidth}\flushright%
   2022%
-\end{minipage}\\[2ex]%
+\end{minipage}\\[1ex]%
 \begin{minipage}[t]{0.82\textwidth}%
-  \textbf{President’s Award for Exceptional Performance}\\%
-  National Renewable Energy Laboratory%
+  \textbf{President’s Award for Exceptional Performance}, AI/ML development, NREL%
 \end{minipage}\hfill%
 \begin{minipage}[t]{0.15\textwidth}\flushright%
   2022%
-\end{minipage}\\[2ex]%
+\end{minipage}\\[1ex]%
 \begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Gallery of Fluid Motion Award Winners}\\%
-  American Physical Society - Division of Fluid Dynamics%
+  \textbf{Gallery of Fluid Motion Award Winners} for Pele Visualization, APS%
 \end{minipage}\hfill%
 \begin{minipage}[t]{0.15\textwidth}\flushright%
   2020%
-\end{minipage}\\[2ex]%
+\end{minipage}\\[1ex]%
 \begin{minipage}[t]{0.82\textwidth}%
-  \textbf{President’s Team Award}\\%
-  National Renewable Energy Laboratory%
+  \textbf{President’s Team Award} for AI work on GPUs, NREL%
 \end{minipage}\hfill%
 \begin{minipage}[t]{0.15\textwidth}\flushright%
   2019%
-\end{minipage}\\[2ex]%
+\end{minipage}\\[1ex]%
 \begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Better Scientific Software Fellowship (honorable mention)}\\%
-  \href{https://bssw.io/blog_posts/introducing-the-2018-bssw-fellows}{Better Scientific Software (Department of Energy organization)}%
+  \href{https://bssw.io/blog_posts/introducing-the-2018-bssw-fellows}{\textbf{Better Scientific Software Fellowship (honorable mention)}}, Dep. of Energy%
 \end{minipage}\hfill%
 \begin{minipage}[t]{0.15\textwidth}\flushright%
   2018%
-\end{minipage}\\[2ex]%
+\end{minipage}\\[1ex]%
 \begin{minipage}[t]{0.82\textwidth}%
-  \textbf{AIAA CFD Best Student Paper Award ($3^{\text{d}}$ place)}\\%
-  American Institute of Aeronautics and Astronautics%
+  \textbf{AIAA CFD Best Student Paper Award ($3^{\text{d}}$ place)}, AIAA%
 \end{minipage}\hfill%
 \begin{minipage}[t]{0.15\textwidth}\flushright%
   2015%
-\end{minipage}\\[2ex]%
+\end{minipage}\\[1ex]%
 \begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Rackham Predoctoral Fellowship}\\%
-  University of Michigan%
+  \textbf{Rackham Predoctoral Fellowship}, University of Michigan%
 \end{minipage}\hfill%
 \begin{minipage}[t]{0.15\textwidth}\flushright%
   2015%
-\end{minipage}\\[2ex]%
+\end{minipage}\\[1ex]%
 \begin{minipage}[t]{0.82\textwidth}%
-  \textbf{Rackham Centennial Fellowship}\\%
-  University of Michigan%
+  \textbf{Rackham Centennial Fellowship}, University of Michigan%
 \end{minipage}\hfill%
 \begin{minipage}[t]{0.15\textwidth}\flushright%
   2013%
-\end{minipage}\\[2ex]%
+\end{minipage}\\[1ex]%
 % \begin{minipage}[t]{0.82\textwidth}%
 %   \textbf{NIF Poster Winner}\\%
 %   Lawrence Livermore National Laboratory 2012 Summer Poster Session%
@@ -308,8 +318,7 @@
 %   2012%
 % \end{minipage}\\[2ex]%
 \begin{minipage}[t]{0.82\textwidth}%
-  \textbf{High Distinction}\\%
-  M.S. in Applied Mathematics Engineering at the Universit\'{e} Catholique de Louvain%
+  \textbf{High Distinction}, M.S. in Applied Mathematics at the Univ. Catholique de Louvain%
 \end{minipage}\hfill%
 \begin{minipage}[t]{0.15\textwidth}\flushright%
   2011%
@@ -589,7 +598,7 @@
 %
 {\sectionfont\color{sectiontitlecolor}{Skills}\hspace*{0.5cm}\raisedrule[0.5ex]{1pt}}\\[0.5ex]%
 \textbf{Scientific programming}\\%
-C/C++, Python, \textsc{GPU} (\textsc{CUDA}, \textsc{SYCL}, \textsc{ROCM}, Kokkos, AMReX), \textsc{MPI}, OpenMP, OpenACC, Git\\[2ex]%
+C/C++, Python, \textsc{GPU} (\textsc{CUDA}, \textsc{SYCL}, \textsc{ROCM}, Kokkos, AMReX), \textsc{MPI}, OpenMP, OpenACC, Git, Pytorch, Tensorflow, OpenGym\\[2ex]%
 \textbf{Operating systems}\\%
 GNU/Linux, OSX\\[2ex]%
 \textbf{Languages}\\%
